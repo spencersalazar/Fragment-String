@@ -1,0 +1,2421 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<resource_list>
+	<XSET name="CueMix Console Configurations v1.0">
+		<XSET name="F6-75-3D-9A-FC-C8-4F-19-91-4F-8D-DA-A1-4E-44-03">
+			<TEXT name="ConfigName">Spencer2012</TEXT>
+			<DBLE name="TimeStampV1" value="359507652.135762"/>
+			<TEXT name="DeviceName">MOTU UltraLite mk3 Hybrid</TEXT>
+			<TEXT name="DeviceUID">com_motu_driver_FWA_Engine:0c55effffff800000000a00ffffff80</TEXT>
+			<TEXT name="Platform">Mac</TEXT>
+			<DBLE name="Changelist" value="50323"/>
+			<XSET name="Input">
+				<XSET name="0">
+					<XSET name="PageInput">
+						<DBLE name="Trim" value="0"/>
+						<DBLE name="Pad" value="0"/>
+						<DBLE name="PhaseInvert" value="0"/>
+						<DBLE name="StereoPair" value="0"/>
+						<DBLE name="StereoSwap" value="0"/>
+						<DBLE name="StereoMode" value="0"/>
+						<DBLE name="StereoWidth" value="1"/>
+						<DBLE name="Phantom" value="0"/>
+						<DBLE name="InstrumentTrim" value="21"/>
+					</XSET>
+					<XSET name="PageEQ">
+						<DBLE name="EQEnable" value="1"/>
+					</XSET>
+					<XSET name="PageEQHPF">
+						<DBLE name="EQFreq" value="20"/>
+						<DBLE name="EQBandEnabled" value="0"/>
+						<DBLE name="EQType" value="1"/>
+					</XSET>
+					<XSET name="PageEQLF">
+						<DBLE name="EQFreq" value="120"/>
+						<DBLE name="EQGain" value="0"/>
+						<DBLE name="EQQ" value="1"/>
+						<DBLE name="EQBandEnabled" value="1"/>
+						<DBLE name="EQType" value="4"/>
+					</XSET>
+					<XSET name="PageEQLMF">
+						<DBLE name="EQFreq" value="1000"/>
+						<DBLE name="EQGain" value="0"/>
+						<DBLE name="EQQ" value="1"/>
+						<DBLE name="EQBandEnabled" value="0"/>
+						<DBLE name="EQType" value="0"/>
+					</XSET>
+					<XSET name="PageEQMF">
+						<DBLE name="EQFreq" value="2000"/>
+						<DBLE name="EQGain" value="0"/>
+						<DBLE name="EQQ" value="1"/>
+						<DBLE name="EQBandEnabled" value="0"/>
+						<DBLE name="EQType" value="0"/>
+					</XSET>
+					<XSET name="PageEQHMF">
+						<DBLE name="EQFreq" value="4000"/>
+						<DBLE name="EQGain" value="0"/>
+						<DBLE name="EQQ" value="1"/>
+						<DBLE name="EQBandEnabled" value="0"/>
+						<DBLE name="EQType" value="0"/>
+					</XSET>
+					<XSET name="PageEQHF">
+						<DBLE name="EQFreq" value="18000"/>
+						<DBLE name="EQGain" value="0"/>
+						<DBLE name="EQQ" value="1"/>
+						<DBLE name="EQBandEnabled" value="1"/>
+						<DBLE name="EQType" value="4"/>
+					</XSET>
+					<XSET name="PageEQLPF">
+						<DBLE name="EQFreq" value="20000"/>
+						<DBLE name="EQBandEnabled" value="0"/>
+						<DBLE name="EQType" value="1"/>
+					</XSET>
+					<XSET name="PageDynamics">
+						<DBLE name="DynamicsEnable" value="0"/>
+					</XSET>
+					<XSET name="PageComp">
+						<DBLE name="CompEnable" value="1"/>
+						<DBLE name="CompThresh" value="0"/>
+						<DBLE name="CompRatio" value="2"/>
+						<DBLE name="CompAttack" value="10"/>
+						<DBLE name="CompRelease" value="500"/>
+						<DBLE name="CompTrim" value="0"/>
+						<DBLE name="CompKnee" value="0"/>
+						<DBLE name="CompDetectorMode" value="1"/>
+					</XSET>
+					<XSET name="PageLeveler">
+						<DBLE name="LevelerEnable" value="0"/>
+						<DBLE name="LevelerMode" value="0"/>
+						<DBLE name="LevelerGainReduction" value="20"/>
+						<DBLE name="LevelerMakeupGain" value="20"/>
+					</XSET>
+					<XSET name="PageRevSend">
+						<DBLE name="RevSend" value="0"/>
+						<DBLE name="RevSendPan" value="0"/>
+					</XSET>
+				</XSET>
+				<XSET name="1">
+					<XSET name="PageInput">
+						<DBLE name="Trim" value="3"/>
+						<DBLE name="Pad" value="0"/>
+						<DBLE name="PhaseInvert" value="0"/>
+						<DBLE name="StereoPair" value="0"/>
+						<DBLE name="StereoSwap" value="0"/>
+						<DBLE name="StereoMode" value="0"/>
+						<DBLE name="StereoWidth" value="1"/>
+						<DBLE name="Phantom" value="0"/>
+						<DBLE name="InstrumentTrim" value="0"/>
+					</XSET>
+					<XSET name="PageEQ">
+						<DBLE name="EQEnable" value="1"/>
+					</XSET>
+					<XSET name="PageEQHPF">
+						<DBLE name="EQFreq" value="20"/>
+						<DBLE name="EQBandEnabled" value="0"/>
+						<DBLE name="EQType" value="1"/>
+					</XSET>
+					<XSET name="PageEQLF">
+						<DBLE name="EQFreq" value="120"/>
+						<DBLE name="EQGain" value="0"/>
+						<DBLE name="EQQ" value="1"/>
+						<DBLE name="EQBandEnabled" value="1"/>
+						<DBLE name="EQType" value="4"/>
+					</XSET>
+					<XSET name="PageEQLMF">
+						<DBLE name="EQFreq" value="1000"/>
+						<DBLE name="EQGain" value="0"/>
+						<DBLE name="EQQ" value="1"/>
+						<DBLE name="EQBandEnabled" value="0"/>
+						<DBLE name="EQType" value="0"/>
+					</XSET>
+					<XSET name="PageEQMF">
+						<DBLE name="EQFreq" value="2000"/>
+						<DBLE name="EQGain" value="0"/>
+						<DBLE name="EQQ" value="1"/>
+						<DBLE name="EQBandEnabled" value="0"/>
+						<DBLE name="EQType" value="0"/>
+					</XSET>
+					<XSET name="PageEQHMF">
+						<DBLE name="EQFreq" value="4000"/>
+						<DBLE name="EQGain" value="0"/>
+						<DBLE name="EQQ" value="1"/>
+						<DBLE name="EQBandEnabled" value="0"/>
+						<DBLE name="EQType" value="0"/>
+					</XSET>
+					<XSET name="PageEQHF">
+						<DBLE name="EQFreq" value="18000"/>
+						<DBLE name="EQGain" value="0"/>
+						<DBLE name="EQQ" value="1"/>
+						<DBLE name="EQBandEnabled" value="1"/>
+						<DBLE name="EQType" value="4"/>
+					</XSET>
+					<XSET name="PageEQLPF">
+						<DBLE name="EQFreq" value="20000"/>
+						<DBLE name="EQBandEnabled" value="0"/>
+						<DBLE name="EQType" value="1"/>
+					</XSET>
+					<XSET name="PageDynamics">
+						<DBLE name="DynamicsEnable" value="0"/>
+					</XSET>
+					<XSET name="PageComp">
+						<DBLE name="CompEnable" value="1"/>
+						<DBLE name="CompThresh" value="0"/>
+						<DBLE name="CompRatio" value="2"/>
+						<DBLE name="CompAttack" value="10"/>
+						<DBLE name="CompRelease" value="500"/>
+						<DBLE name="CompTrim" value="0"/>
+						<DBLE name="CompKnee" value="0"/>
+						<DBLE name="CompDetectorMode" value="1"/>
+					</XSET>
+					<XSET name="PageLeveler">
+						<DBLE name="LevelerEnable" value="0"/>
+						<DBLE name="LevelerMode" value="0"/>
+						<DBLE name="LevelerGainReduction" value="20"/>
+						<DBLE name="LevelerMakeupGain" value="20"/>
+					</XSET>
+					<XSET name="PageRevSend">
+						<DBLE name="RevSend" value="0"/>
+						<DBLE name="RevSendPan" value="0"/>
+					</XSET>
+				</XSET>
+				<XSET name="2">
+					<XSET name="PageInput">
+						<DBLE name="Trim" value="0"/>
+						<DBLE name="PhaseInvert" value="0"/>
+						<DBLE name="StereoPair" value="1"/>
+						<DBLE name="StereoSwap" value="0"/>
+						<DBLE name="StereoMode" value="0"/>
+						<DBLE name="StereoWidth" value="1"/>
+					</XSET>
+					<XSET name="PageEQ">
+						<DBLE name="EQEnable" value="1"/>
+					</XSET>
+					<XSET name="PageEQHPF">
+						<DBLE name="EQFreq" value="20"/>
+						<DBLE name="EQBandEnabled" value="0"/>
+						<DBLE name="EQType" value="1"/>
+					</XSET>
+					<XSET name="PageEQLF">
+						<DBLE name="EQFreq" value="120"/>
+						<DBLE name="EQGain" value="0"/>
+						<DBLE name="EQQ" value="1"/>
+						<DBLE name="EQBandEnabled" value="1"/>
+						<DBLE name="EQType" value="4"/>
+					</XSET>
+					<XSET name="PageEQLMF">
+						<DBLE name="EQFreq" value="1000"/>
+						<DBLE name="EQGain" value="0"/>
+						<DBLE name="EQQ" value="1"/>
+						<DBLE name="EQBandEnabled" value="0"/>
+						<DBLE name="EQType" value="0"/>
+					</XSET>
+					<XSET name="PageEQMF">
+						<DBLE name="EQFreq" value="2000"/>
+						<DBLE name="EQGain" value="0"/>
+						<DBLE name="EQQ" value="1"/>
+						<DBLE name="EQBandEnabled" value="0"/>
+						<DBLE name="EQType" value="0"/>
+					</XSET>
+					<XSET name="PageEQHMF">
+						<DBLE name="EQFreq" value="4000"/>
+						<DBLE name="EQGain" value="0"/>
+						<DBLE name="EQQ" value="1"/>
+						<DBLE name="EQBandEnabled" value="0"/>
+						<DBLE name="EQType" value="0"/>
+					</XSET>
+					<XSET name="PageEQHF">
+						<DBLE name="EQFreq" value="18000"/>
+						<DBLE name="EQGain" value="0"/>
+						<DBLE name="EQQ" value="1"/>
+						<DBLE name="EQBandEnabled" value="1"/>
+						<DBLE name="EQType" value="4"/>
+					</XSET>
+					<XSET name="PageEQLPF">
+						<DBLE name="EQFreq" value="20000"/>
+						<DBLE name="EQBandEnabled" value="0"/>
+						<DBLE name="EQType" value="1"/>
+					</XSET>
+					<XSET name="PageDynamics">
+						<DBLE name="DynamicsEnable" value="0"/>
+					</XSET>
+					<XSET name="PageComp">
+						<DBLE name="CompEnable" value="1"/>
+						<DBLE name="CompThresh" value="0"/>
+						<DBLE name="CompRatio" value="2"/>
+						<DBLE name="CompAttack" value="10"/>
+						<DBLE name="CompRelease" value="500"/>
+						<DBLE name="CompTrim" value="0"/>
+						<DBLE name="CompKnee" value="0"/>
+						<DBLE name="CompDetectorMode" value="1"/>
+					</XSET>
+					<XSET name="PageLeveler">
+						<DBLE name="LevelerEnable" value="0"/>
+						<DBLE name="LevelerMode" value="0"/>
+						<DBLE name="LevelerGainReduction" value="20"/>
+						<DBLE name="LevelerMakeupGain" value="20"/>
+					</XSET>
+					<XSET name="PageRevSend">
+						<DBLE name="RevSend" value="0"/>
+						<DBLE name="RevSendPan" value="0"/>
+					</XSET>
+				</XSET>
+				<XSET name="3">
+					<XSET name="PageInput">
+						<DBLE name="Trim" value="0"/>
+						<DBLE name="PhaseInvert" value="0"/>
+						<DBLE name="StereoPair" value="1"/>
+						<DBLE name="StereoSwap" value="0"/>
+						<DBLE name="StereoMode" value="0"/>
+						<DBLE name="StereoWidth" value="1"/>
+					</XSET>
+					<XSET name="PageEQ">
+						<DBLE name="EQEnable" value="1"/>
+					</XSET>
+					<XSET name="PageEQHPF">
+						<DBLE name="EQFreq" value="20"/>
+						<DBLE name="EQBandEnabled" value="0"/>
+						<DBLE name="EQType" value="1"/>
+					</XSET>
+					<XSET name="PageEQLF">
+						<DBLE name="EQFreq" value="120"/>
+						<DBLE name="EQGain" value="0"/>
+						<DBLE name="EQQ" value="1"/>
+						<DBLE name="EQBandEnabled" value="1"/>
+						<DBLE name="EQType" value="4"/>
+					</XSET>
+					<XSET name="PageEQLMF">
+						<DBLE name="EQFreq" value="1000"/>
+						<DBLE name="EQGain" value="0"/>
+						<DBLE name="EQQ" value="1"/>
+						<DBLE name="EQBandEnabled" value="0"/>
+						<DBLE name="EQType" value="0"/>
+					</XSET>
+					<XSET name="PageEQMF">
+						<DBLE name="EQFreq" value="2000"/>
+						<DBLE name="EQGain" value="0"/>
+						<DBLE name="EQQ" value="1"/>
+						<DBLE name="EQBandEnabled" value="0"/>
+						<DBLE name="EQType" value="0"/>
+					</XSET>
+					<XSET name="PageEQHMF">
+						<DBLE name="EQFreq" value="4000"/>
+						<DBLE name="EQGain" value="0"/>
+						<DBLE name="EQQ" value="1"/>
+						<DBLE name="EQBandEnabled" value="0"/>
+						<DBLE name="EQType" value="0"/>
+					</XSET>
+					<XSET name="PageEQHF">
+						<DBLE name="EQFreq" value="18000"/>
+						<DBLE name="EQGain" value="0"/>
+						<DBLE name="EQQ" value="1"/>
+						<DBLE name="EQBandEnabled" value="1"/>
+						<DBLE name="EQType" value="4"/>
+					</XSET>
+					<XSET name="PageEQLPF">
+						<DBLE name="EQFreq" value="20000"/>
+						<DBLE name="EQBandEnabled" value="0"/>
+						<DBLE name="EQType" value="1"/>
+					</XSET>
+					<XSET name="PageDynamics">
+						<DBLE name="DynamicsEnable" value="0"/>
+					</XSET>
+					<XSET name="PageComp">
+						<DBLE name="CompEnable" value="1"/>
+						<DBLE name="CompThresh" value="0"/>
+						<DBLE name="CompRatio" value="2"/>
+						<DBLE name="CompAttack" value="10"/>
+						<DBLE name="CompRelease" value="500"/>
+						<DBLE name="CompTrim" value="0"/>
+						<DBLE name="CompKnee" value="0"/>
+						<DBLE name="CompDetectorMode" value="1"/>
+					</XSET>
+					<XSET name="PageLeveler">
+						<DBLE name="LevelerEnable" value="0"/>
+						<DBLE name="LevelerMode" value="0"/>
+						<DBLE name="LevelerGainReduction" value="20"/>
+						<DBLE name="LevelerMakeupGain" value="20"/>
+					</XSET>
+					<XSET name="PageRevSend">
+						<DBLE name="RevSend" value="0"/>
+						<DBLE name="RevSendPan" value="0"/>
+					</XSET>
+				</XSET>
+				<XSET name="4">
+					<XSET name="PageInput">
+						<DBLE name="Trim" value="0"/>
+						<DBLE name="PhaseInvert" value="0"/>
+						<DBLE name="StereoPair" value="1"/>
+						<DBLE name="StereoSwap" value="0"/>
+						<DBLE name="StereoMode" value="0"/>
+						<DBLE name="StereoWidth" value="1"/>
+					</XSET>
+					<XSET name="PageEQ">
+						<DBLE name="EQEnable" value="1"/>
+					</XSET>
+					<XSET name="PageEQHPF">
+						<DBLE name="EQFreq" value="20"/>
+						<DBLE name="EQBandEnabled" value="0"/>
+						<DBLE name="EQType" value="1"/>
+					</XSET>
+					<XSET name="PageEQLF">
+						<DBLE name="EQFreq" value="120"/>
+						<DBLE name="EQGain" value="0"/>
+						<DBLE name="EQQ" value="1"/>
+						<DBLE name="EQBandEnabled" value="1"/>
+						<DBLE name="EQType" value="4"/>
+					</XSET>
+					<XSET name="PageEQLMF">
+						<DBLE name="EQFreq" value="1000"/>
+						<DBLE name="EQGain" value="0"/>
+						<DBLE name="EQQ" value="1"/>
+						<DBLE name="EQBandEnabled" value="0"/>
+						<DBLE name="EQType" value="0"/>
+					</XSET>
+					<XSET name="PageEQMF">
+						<DBLE name="EQFreq" value="2000"/>
+						<DBLE name="EQGain" value="0"/>
+						<DBLE name="EQQ" value="1"/>
+						<DBLE name="EQBandEnabled" value="0"/>
+						<DBLE name="EQType" value="0"/>
+					</XSET>
+					<XSET name="PageEQHMF">
+						<DBLE name="EQFreq" value="4000"/>
+						<DBLE name="EQGain" value="0"/>
+						<DBLE name="EQQ" value="1"/>
+						<DBLE name="EQBandEnabled" value="0"/>
+						<DBLE name="EQType" value="0"/>
+					</XSET>
+					<XSET name="PageEQHF">
+						<DBLE name="EQFreq" value="18000"/>
+						<DBLE name="EQGain" value="0"/>
+						<DBLE name="EQQ" value="1"/>
+						<DBLE name="EQBandEnabled" value="1"/>
+						<DBLE name="EQType" value="4"/>
+					</XSET>
+					<XSET name="PageEQLPF">
+						<DBLE name="EQFreq" value="20000"/>
+						<DBLE name="EQBandEnabled" value="0"/>
+						<DBLE name="EQType" value="1"/>
+					</XSET>
+					<XSET name="PageDynamics">
+						<DBLE name="DynamicsEnable" value="0"/>
+					</XSET>
+					<XSET name="PageComp">
+						<DBLE name="CompEnable" value="1"/>
+						<DBLE name="CompThresh" value="0"/>
+						<DBLE name="CompRatio" value="2"/>
+						<DBLE name="CompAttack" value="10"/>
+						<DBLE name="CompRelease" value="500"/>
+						<DBLE name="CompTrim" value="0"/>
+						<DBLE name="CompKnee" value="0"/>
+						<DBLE name="CompDetectorMode" value="1"/>
+					</XSET>
+					<XSET name="PageLeveler">
+						<DBLE name="LevelerEnable" value="0"/>
+						<DBLE name="LevelerMode" value="0"/>
+						<DBLE name="LevelerGainReduction" value="20"/>
+						<DBLE name="LevelerMakeupGain" value="20"/>
+					</XSET>
+					<XSET name="PageRevSend">
+						<DBLE name="RevSend" value="0"/>
+						<DBLE name="RevSendPan" value="0"/>
+					</XSET>
+				</XSET>
+				<XSET name="5">
+					<XSET name="PageInput">
+						<DBLE name="Trim" value="0"/>
+						<DBLE name="PhaseInvert" value="0"/>
+						<DBLE name="StereoPair" value="1"/>
+						<DBLE name="StereoSwap" value="0"/>
+						<DBLE name="StereoMode" value="0"/>
+						<DBLE name="StereoWidth" value="1"/>
+					</XSET>
+					<XSET name="PageEQ">
+						<DBLE name="EQEnable" value="1"/>
+					</XSET>
+					<XSET name="PageEQHPF">
+						<DBLE name="EQFreq" value="20"/>
+						<DBLE name="EQBandEnabled" value="0"/>
+						<DBLE name="EQType" value="1"/>
+					</XSET>
+					<XSET name="PageEQLF">
+						<DBLE name="EQFreq" value="120"/>
+						<DBLE name="EQGain" value="0"/>
+						<DBLE name="EQQ" value="1"/>
+						<DBLE name="EQBandEnabled" value="1"/>
+						<DBLE name="EQType" value="4"/>
+					</XSET>
+					<XSET name="PageEQLMF">
+						<DBLE name="EQFreq" value="1000"/>
+						<DBLE name="EQGain" value="0"/>
+						<DBLE name="EQQ" value="1"/>
+						<DBLE name="EQBandEnabled" value="0"/>
+						<DBLE name="EQType" value="0"/>
+					</XSET>
+					<XSET name="PageEQMF">
+						<DBLE name="EQFreq" value="2000"/>
+						<DBLE name="EQGain" value="0"/>
+						<DBLE name="EQQ" value="1"/>
+						<DBLE name="EQBandEnabled" value="0"/>
+						<DBLE name="EQType" value="0"/>
+					</XSET>
+					<XSET name="PageEQHMF">
+						<DBLE name="EQFreq" value="4000"/>
+						<DBLE name="EQGain" value="0"/>
+						<DBLE name="EQQ" value="1"/>
+						<DBLE name="EQBandEnabled" value="0"/>
+						<DBLE name="EQType" value="0"/>
+					</XSET>
+					<XSET name="PageEQHF">
+						<DBLE name="EQFreq" value="18000"/>
+						<DBLE name="EQGain" value="0"/>
+						<DBLE name="EQQ" value="1"/>
+						<DBLE name="EQBandEnabled" value="1"/>
+						<DBLE name="EQType" value="4"/>
+					</XSET>
+					<XSET name="PageEQLPF">
+						<DBLE name="EQFreq" value="20000"/>
+						<DBLE name="EQBandEnabled" value="0"/>
+						<DBLE name="EQType" value="1"/>
+					</XSET>
+					<XSET name="PageDynamics">
+						<DBLE name="DynamicsEnable" value="0"/>
+					</XSET>
+					<XSET name="PageComp">
+						<DBLE name="CompEnable" value="1"/>
+						<DBLE name="CompThresh" value="0"/>
+						<DBLE name="CompRatio" value="2"/>
+						<DBLE name="CompAttack" value="10"/>
+						<DBLE name="CompRelease" value="500"/>
+						<DBLE name="CompTrim" value="0"/>
+						<DBLE name="CompKnee" value="0"/>
+						<DBLE name="CompDetectorMode" value="1"/>
+					</XSET>
+					<XSET name="PageLeveler">
+						<DBLE name="LevelerEnable" value="0"/>
+						<DBLE name="LevelerMode" value="0"/>
+						<DBLE name="LevelerGainReduction" value="20"/>
+						<DBLE name="LevelerMakeupGain" value="20"/>
+					</XSET>
+					<XSET name="PageRevSend">
+						<DBLE name="RevSend" value="0"/>
+						<DBLE name="RevSendPan" value="0"/>
+					</XSET>
+				</XSET>
+				<XSET name="6">
+					<XSET name="PageInput">
+						<DBLE name="Trim" value="0"/>
+						<DBLE name="PhaseInvert" value="0"/>
+						<DBLE name="StereoPair" value="1"/>
+						<DBLE name="StereoSwap" value="0"/>
+						<DBLE name="StereoMode" value="0"/>
+						<DBLE name="StereoWidth" value="1"/>
+					</XSET>
+					<XSET name="PageEQ">
+						<DBLE name="EQEnable" value="1"/>
+					</XSET>
+					<XSET name="PageEQHPF">
+						<DBLE name="EQFreq" value="20"/>
+						<DBLE name="EQBandEnabled" value="0"/>
+						<DBLE name="EQType" value="1"/>
+					</XSET>
+					<XSET name="PageEQLF">
+						<DBLE name="EQFreq" value="120"/>
+						<DBLE name="EQGain" value="0"/>
+						<DBLE name="EQQ" value="1"/>
+						<DBLE name="EQBandEnabled" value="1"/>
+						<DBLE name="EQType" value="4"/>
+					</XSET>
+					<XSET name="PageEQLMF">
+						<DBLE name="EQFreq" value="1000"/>
+						<DBLE name="EQGain" value="0"/>
+						<DBLE name="EQQ" value="1"/>
+						<DBLE name="EQBandEnabled" value="0"/>
+						<DBLE name="EQType" value="0"/>
+					</XSET>
+					<XSET name="PageEQMF">
+						<DBLE name="EQFreq" value="2000"/>
+						<DBLE name="EQGain" value="0"/>
+						<DBLE name="EQQ" value="1"/>
+						<DBLE name="EQBandEnabled" value="0"/>
+						<DBLE name="EQType" value="0"/>
+					</XSET>
+					<XSET name="PageEQHMF">
+						<DBLE name="EQFreq" value="4000"/>
+						<DBLE name="EQGain" value="0"/>
+						<DBLE name="EQQ" value="1"/>
+						<DBLE name="EQBandEnabled" value="0"/>
+						<DBLE name="EQType" value="0"/>
+					</XSET>
+					<XSET name="PageEQHF">
+						<DBLE name="EQFreq" value="18000"/>
+						<DBLE name="EQGain" value="0"/>
+						<DBLE name="EQQ" value="1"/>
+						<DBLE name="EQBandEnabled" value="1"/>
+						<DBLE name="EQType" value="4"/>
+					</XSET>
+					<XSET name="PageEQLPF">
+						<DBLE name="EQFreq" value="20000"/>
+						<DBLE name="EQBandEnabled" value="0"/>
+						<DBLE name="EQType" value="1"/>
+					</XSET>
+					<XSET name="PageDynamics">
+						<DBLE name="DynamicsEnable" value="0"/>
+					</XSET>
+					<XSET name="PageComp">
+						<DBLE name="CompEnable" value="1"/>
+						<DBLE name="CompThresh" value="0"/>
+						<DBLE name="CompRatio" value="2"/>
+						<DBLE name="CompAttack" value="10"/>
+						<DBLE name="CompRelease" value="500"/>
+						<DBLE name="CompTrim" value="0"/>
+						<DBLE name="CompKnee" value="0"/>
+						<DBLE name="CompDetectorMode" value="1"/>
+					</XSET>
+					<XSET name="PageLeveler">
+						<DBLE name="LevelerEnable" value="0"/>
+						<DBLE name="LevelerMode" value="0"/>
+						<DBLE name="LevelerGainReduction" value="20"/>
+						<DBLE name="LevelerMakeupGain" value="20"/>
+					</XSET>
+					<XSET name="PageRevSend">
+						<DBLE name="RevSend" value="0"/>
+						<DBLE name="RevSendPan" value="0"/>
+					</XSET>
+				</XSET>
+				<XSET name="7">
+					<XSET name="PageInput">
+						<DBLE name="Trim" value="0"/>
+						<DBLE name="PhaseInvert" value="0"/>
+						<DBLE name="StereoPair" value="1"/>
+						<DBLE name="StereoSwap" value="0"/>
+						<DBLE name="StereoMode" value="0"/>
+						<DBLE name="StereoWidth" value="1"/>
+					</XSET>
+					<XSET name="PageEQ">
+						<DBLE name="EQEnable" value="1"/>
+					</XSET>
+					<XSET name="PageEQHPF">
+						<DBLE name="EQFreq" value="20"/>
+						<DBLE name="EQBandEnabled" value="0"/>
+						<DBLE name="EQType" value="1"/>
+					</XSET>
+					<XSET name="PageEQLF">
+						<DBLE name="EQFreq" value="120"/>
+						<DBLE name="EQGain" value="0"/>
+						<DBLE name="EQQ" value="1"/>
+						<DBLE name="EQBandEnabled" value="1"/>
+						<DBLE name="EQType" value="4"/>
+					</XSET>
+					<XSET name="PageEQLMF">
+						<DBLE name="EQFreq" value="1000"/>
+						<DBLE name="EQGain" value="0"/>
+						<DBLE name="EQQ" value="1"/>
+						<DBLE name="EQBandEnabled" value="0"/>
+						<DBLE name="EQType" value="0"/>
+					</XSET>
+					<XSET name="PageEQMF">
+						<DBLE name="EQFreq" value="2000"/>
+						<DBLE name="EQGain" value="0"/>
+						<DBLE name="EQQ" value="1"/>
+						<DBLE name="EQBandEnabled" value="0"/>
+						<DBLE name="EQType" value="0"/>
+					</XSET>
+					<XSET name="PageEQHMF">
+						<DBLE name="EQFreq" value="4000"/>
+						<DBLE name="EQGain" value="0"/>
+						<DBLE name="EQQ" value="1"/>
+						<DBLE name="EQBandEnabled" value="0"/>
+						<DBLE name="EQType" value="0"/>
+					</XSET>
+					<XSET name="PageEQHF">
+						<DBLE name="EQFreq" value="18000"/>
+						<DBLE name="EQGain" value="0"/>
+						<DBLE name="EQQ" value="1"/>
+						<DBLE name="EQBandEnabled" value="1"/>
+						<DBLE name="EQType" value="4"/>
+					</XSET>
+					<XSET name="PageEQLPF">
+						<DBLE name="EQFreq" value="20000"/>
+						<DBLE name="EQBandEnabled" value="0"/>
+						<DBLE name="EQType" value="1"/>
+					</XSET>
+					<XSET name="PageDynamics">
+						<DBLE name="DynamicsEnable" value="0"/>
+					</XSET>
+					<XSET name="PageComp">
+						<DBLE name="CompEnable" value="1"/>
+						<DBLE name="CompThresh" value="0"/>
+						<DBLE name="CompRatio" value="2"/>
+						<DBLE name="CompAttack" value="10"/>
+						<DBLE name="CompRelease" value="500"/>
+						<DBLE name="CompTrim" value="0"/>
+						<DBLE name="CompKnee" value="0"/>
+						<DBLE name="CompDetectorMode" value="1"/>
+					</XSET>
+					<XSET name="PageLeveler">
+						<DBLE name="LevelerEnable" value="0"/>
+						<DBLE name="LevelerMode" value="0"/>
+						<DBLE name="LevelerGainReduction" value="20"/>
+						<DBLE name="LevelerMakeupGain" value="20"/>
+					</XSET>
+					<XSET name="PageRevSend">
+						<DBLE name="RevSend" value="0"/>
+						<DBLE name="RevSendPan" value="0"/>
+					</XSET>
+				</XSET>
+				<XSET name="8">
+					<XSET name="PageInput">
+						<DBLE name="Trim" value="0"/>
+						<DBLE name="PhaseInvert" value="0"/>
+						<DBLE name="StereoPair" value="1"/>
+						<DBLE name="StereoSwap" value="0"/>
+						<DBLE name="StereoMode" value="0"/>
+						<DBLE name="StereoWidth" value="1"/>
+					</XSET>
+					<XSET name="PageEQ">
+						<DBLE name="EQEnable" value="0"/>
+					</XSET>
+					<XSET name="PageEQHPF">
+						<DBLE name="EQFreq" value="20"/>
+						<DBLE name="EQBandEnabled" value="0"/>
+						<DBLE name="EQType" value="1"/>
+					</XSET>
+					<XSET name="PageEQLF">
+						<DBLE name="EQFreq" value="120"/>
+						<DBLE name="EQGain" value="0"/>
+						<DBLE name="EQQ" value="1"/>
+						<DBLE name="EQBandEnabled" value="1"/>
+						<DBLE name="EQType" value="4"/>
+					</XSET>
+					<XSET name="PageEQLMF">
+						<DBLE name="EQFreq" value="1000"/>
+						<DBLE name="EQGain" value="0"/>
+						<DBLE name="EQQ" value="1"/>
+						<DBLE name="EQBandEnabled" value="0"/>
+						<DBLE name="EQType" value="0"/>
+					</XSET>
+					<XSET name="PageEQMF">
+						<DBLE name="EQFreq" value="2000"/>
+						<DBLE name="EQGain" value="0"/>
+						<DBLE name="EQQ" value="1"/>
+						<DBLE name="EQBandEnabled" value="0"/>
+						<DBLE name="EQType" value="0"/>
+					</XSET>
+					<XSET name="PageEQHMF">
+						<DBLE name="EQFreq" value="4000"/>
+						<DBLE name="EQGain" value="0"/>
+						<DBLE name="EQQ" value="1"/>
+						<DBLE name="EQBandEnabled" value="0"/>
+						<DBLE name="EQType" value="0"/>
+					</XSET>
+					<XSET name="PageEQHF">
+						<DBLE name="EQFreq" value="18000"/>
+						<DBLE name="EQGain" value="0"/>
+						<DBLE name="EQQ" value="1"/>
+						<DBLE name="EQBandEnabled" value="1"/>
+						<DBLE name="EQType" value="4"/>
+					</XSET>
+					<XSET name="PageEQLPF">
+						<DBLE name="EQFreq" value="20000"/>
+						<DBLE name="EQBandEnabled" value="0"/>
+						<DBLE name="EQType" value="1"/>
+					</XSET>
+					<XSET name="PageDynamics">
+						<DBLE name="DynamicsEnable" value="0"/>
+					</XSET>
+					<XSET name="PageComp">
+						<DBLE name="CompEnable" value="1"/>
+						<DBLE name="CompThresh" value="0"/>
+						<DBLE name="CompRatio" value="2"/>
+						<DBLE name="CompAttack" value="10"/>
+						<DBLE name="CompRelease" value="500"/>
+						<DBLE name="CompTrim" value="0"/>
+						<DBLE name="CompKnee" value="0"/>
+						<DBLE name="CompDetectorMode" value="1"/>
+					</XSET>
+					<XSET name="PageLeveler">
+						<DBLE name="LevelerEnable" value="0"/>
+						<DBLE name="LevelerMode" value="0"/>
+						<DBLE name="LevelerGainReduction" value="20"/>
+						<DBLE name="LevelerMakeupGain" value="20"/>
+					</XSET>
+					<XSET name="PageRevSend">
+						<DBLE name="RevSend" value="0"/>
+						<DBLE name="RevSendPan" value="0"/>
+					</XSET>
+				</XSET>
+				<XSET name="9">
+					<XSET name="PageInput">
+						<DBLE name="Trim" value="0"/>
+						<DBLE name="PhaseInvert" value="0"/>
+						<DBLE name="StereoPair" value="1"/>
+						<DBLE name="StereoSwap" value="0"/>
+						<DBLE name="StereoMode" value="0"/>
+						<DBLE name="StereoWidth" value="1"/>
+					</XSET>
+					<XSET name="PageEQ">
+						<DBLE name="EQEnable" value="0"/>
+					</XSET>
+					<XSET name="PageEQHPF">
+						<DBLE name="EQFreq" value="20"/>
+						<DBLE name="EQBandEnabled" value="0"/>
+						<DBLE name="EQType" value="1"/>
+					</XSET>
+					<XSET name="PageEQLF">
+						<DBLE name="EQFreq" value="120"/>
+						<DBLE name="EQGain" value="0"/>
+						<DBLE name="EQQ" value="1"/>
+						<DBLE name="EQBandEnabled" value="1"/>
+						<DBLE name="EQType" value="4"/>
+					</XSET>
+					<XSET name="PageEQLMF">
+						<DBLE name="EQFreq" value="1000"/>
+						<DBLE name="EQGain" value="0"/>
+						<DBLE name="EQQ" value="1"/>
+						<DBLE name="EQBandEnabled" value="0"/>
+						<DBLE name="EQType" value="0"/>
+					</XSET>
+					<XSET name="PageEQMF">
+						<DBLE name="EQFreq" value="2000"/>
+						<DBLE name="EQGain" value="0"/>
+						<DBLE name="EQQ" value="1"/>
+						<DBLE name="EQBandEnabled" value="0"/>
+						<DBLE name="EQType" value="0"/>
+					</XSET>
+					<XSET name="PageEQHMF">
+						<DBLE name="EQFreq" value="4000"/>
+						<DBLE name="EQGain" value="0"/>
+						<DBLE name="EQQ" value="1"/>
+						<DBLE name="EQBandEnabled" value="0"/>
+						<DBLE name="EQType" value="0"/>
+					</XSET>
+					<XSET name="PageEQHF">
+						<DBLE name="EQFreq" value="18000"/>
+						<DBLE name="EQGain" value="0"/>
+						<DBLE name="EQQ" value="1"/>
+						<DBLE name="EQBandEnabled" value="1"/>
+						<DBLE name="EQType" value="4"/>
+					</XSET>
+					<XSET name="PageEQLPF">
+						<DBLE name="EQFreq" value="20000"/>
+						<DBLE name="EQBandEnabled" value="0"/>
+						<DBLE name="EQType" value="1"/>
+					</XSET>
+					<XSET name="PageDynamics">
+						<DBLE name="DynamicsEnable" value="0"/>
+					</XSET>
+					<XSET name="PageComp">
+						<DBLE name="CompEnable" value="1"/>
+						<DBLE name="CompThresh" value="0"/>
+						<DBLE name="CompRatio" value="2"/>
+						<DBLE name="CompAttack" value="10"/>
+						<DBLE name="CompRelease" value="500"/>
+						<DBLE name="CompTrim" value="0"/>
+						<DBLE name="CompKnee" value="0"/>
+						<DBLE name="CompDetectorMode" value="1"/>
+					</XSET>
+					<XSET name="PageLeveler">
+						<DBLE name="LevelerEnable" value="0"/>
+						<DBLE name="LevelerMode" value="0"/>
+						<DBLE name="LevelerGainReduction" value="20"/>
+						<DBLE name="LevelerMakeupGain" value="20"/>
+					</XSET>
+					<XSET name="PageRevSend">
+						<DBLE name="RevSend" value="0"/>
+						<DBLE name="RevSendPan" value="0"/>
+					</XSET>
+				</XSET>
+			</XSET>
+			<XSET name="Bus">
+				<XSET name="0">
+					<XSET name="Input">
+						<XSET name="0">
+							<XSET name="PageMixInput">
+								<DBLE name="Solo" value="0"/>
+								<DBLE name="Mute" value="0"/>
+								<DBLE name="Pan" value="0"/>
+								<DBLE name="Fader" value="1"/>
+								<DBLE name="Balance" value="0"/>
+								<DBLE name="Width" value="1"/>
+								<DBLE name="BalWidthPref" value="1"/>
+							</XSET>
+						</XSET>
+						<XSET name="1">
+							<XSET name="PageMixInput">
+								<DBLE name="Solo" value="0"/>
+								<DBLE name="Mute" value="1"/>
+								<DBLE name="Pan" value="0"/>
+								<DBLE name="Fader" value="1"/>
+								<DBLE name="Balance" value="0"/>
+								<DBLE name="Width" value="1"/>
+								<DBLE name="BalWidthPref" value="1"/>
+							</XSET>
+						</XSET>
+						<XSET name="2">
+							<XSET name="PageMixInput">
+								<DBLE name="Solo" value="0"/>
+								<DBLE name="Mute" value="0"/>
+								<DBLE name="Pan" value="0"/>
+								<DBLE name="Fader" value="1"/>
+								<DBLE name="Balance" value="0"/>
+								<DBLE name="Width" value="0"/>
+								<DBLE name="BalWidthPref" value="0"/>
+							</XSET>
+						</XSET>
+						<XSET name="3">
+							<XSET name="PageMixInput">
+								<DBLE name="Solo" value="0"/>
+								<DBLE name="Mute" value="1"/>
+								<DBLE name="Pan" value="0"/>
+								<DBLE name="Fader" value="1"/>
+								<DBLE name="Balance" value="0"/>
+								<DBLE name="Width" value="0"/>
+								<DBLE name="BalWidthPref" value="0"/>
+							</XSET>
+						</XSET>
+						<XSET name="4">
+							<XSET name="PageMixInput">
+								<DBLE name="Solo" value="0"/>
+								<DBLE name="Mute" value="1"/>
+								<DBLE name="Pan" value="0"/>
+								<DBLE name="Fader" value="1"/>
+								<DBLE name="Balance" value="0"/>
+								<DBLE name="Width" value="1"/>
+								<DBLE name="BalWidthPref" value="1"/>
+							</XSET>
+						</XSET>
+						<XSET name="5">
+							<XSET name="PageMixInput">
+								<DBLE name="Solo" value="0"/>
+								<DBLE name="Mute" value="1"/>
+								<DBLE name="Pan" value="0"/>
+								<DBLE name="Fader" value="1"/>
+								<DBLE name="Balance" value="0"/>
+								<DBLE name="Width" value="1"/>
+								<DBLE name="BalWidthPref" value="1"/>
+							</XSET>
+						</XSET>
+						<XSET name="6">
+							<XSET name="PageMixInput">
+								<DBLE name="Solo" value="0"/>
+								<DBLE name="Mute" value="1"/>
+								<DBLE name="Pan" value="0"/>
+								<DBLE name="Fader" value="1"/>
+								<DBLE name="Balance" value="0"/>
+								<DBLE name="Width" value="1"/>
+								<DBLE name="BalWidthPref" value="1"/>
+							</XSET>
+						</XSET>
+						<XSET name="7">
+							<XSET name="PageMixInput">
+								<DBLE name="Solo" value="0"/>
+								<DBLE name="Mute" value="1"/>
+								<DBLE name="Pan" value="0"/>
+								<DBLE name="Fader" value="1"/>
+								<DBLE name="Balance" value="0"/>
+								<DBLE name="Width" value="1"/>
+								<DBLE name="BalWidthPref" value="1"/>
+							</XSET>
+						</XSET>
+						<XSET name="8">
+							<XSET name="PageMixInput">
+								<DBLE name="Solo" value="0"/>
+								<DBLE name="Mute" value="1"/>
+								<DBLE name="Pan" value="0"/>
+								<DBLE name="Fader" value="1"/>
+								<DBLE name="Balance" value="0"/>
+								<DBLE name="Width" value="1"/>
+								<DBLE name="BalWidthPref" value="1"/>
+							</XSET>
+						</XSET>
+						<XSET name="9">
+							<XSET name="PageMixInput">
+								<DBLE name="Solo" value="0"/>
+								<DBLE name="Mute" value="1"/>
+								<DBLE name="Pan" value="0"/>
+								<DBLE name="Fader" value="1"/>
+								<DBLE name="Balance" value="0"/>
+								<DBLE name="Width" value="1"/>
+								<DBLE name="BalWidthPref" value="1"/>
+							</XSET>
+						</XSET>
+					</XSET>
+					<XSET name="PageMix">
+						<DBLE name="BusAssign" value="1"/>
+						<DBLE name="BusMute" value="0"/>
+						<DBLE name="BusFader" value="1"/>
+					</XSET>
+					<XSET name="PageRevSend">
+						<DBLE name="RevSend" value="0"/>
+						<DBLE name="RevReturn" value="0"/>
+					</XSET>
+				</XSET>
+				<XSET name="1">
+					<XSET name="Input">
+						<XSET name="0">
+							<XSET name="PageMixInput">
+								<DBLE name="Solo" value="0"/>
+								<DBLE name="Mute" value="0"/>
+								<DBLE name="Pan" value="0"/>
+								<DBLE name="Fader" value="1"/>
+								<DBLE name="Balance" value="0"/>
+								<DBLE name="Width" value="1"/>
+								<DBLE name="BalWidthPref" value="1"/>
+							</XSET>
+						</XSET>
+						<XSET name="1">
+							<XSET name="PageMixInput">
+								<DBLE name="Solo" value="0"/>
+								<DBLE name="Mute" value="1"/>
+								<DBLE name="Pan" value="0"/>
+								<DBLE name="Fader" value="1"/>
+								<DBLE name="Balance" value="0"/>
+								<DBLE name="Width" value="1"/>
+								<DBLE name="BalWidthPref" value="1"/>
+							</XSET>
+						</XSET>
+						<XSET name="2">
+							<XSET name="PageMixInput">
+								<DBLE name="Solo" value="0"/>
+								<DBLE name="Mute" value="0"/>
+								<DBLE name="Pan" value="0"/>
+								<DBLE name="Fader" value="1"/>
+								<DBLE name="Balance" value="0"/>
+								<DBLE name="Width" value="0"/>
+								<DBLE name="BalWidthPref" value="0"/>
+							</XSET>
+						</XSET>
+						<XSET name="3">
+							<XSET name="PageMixInput">
+								<DBLE name="Solo" value="0"/>
+								<DBLE name="Mute" value="1"/>
+								<DBLE name="Pan" value="0"/>
+								<DBLE name="Fader" value="1"/>
+								<DBLE name="Balance" value="0"/>
+								<DBLE name="Width" value="0"/>
+								<DBLE name="BalWidthPref" value="0"/>
+							</XSET>
+						</XSET>
+						<XSET name="4">
+							<XSET name="PageMixInput">
+								<DBLE name="Solo" value="0"/>
+								<DBLE name="Mute" value="1"/>
+								<DBLE name="Pan" value="0"/>
+								<DBLE name="Fader" value="1"/>
+								<DBLE name="Balance" value="0"/>
+								<DBLE name="Width" value="1"/>
+								<DBLE name="BalWidthPref" value="1"/>
+							</XSET>
+						</XSET>
+						<XSET name="5">
+							<XSET name="PageMixInput">
+								<DBLE name="Solo" value="0"/>
+								<DBLE name="Mute" value="1"/>
+								<DBLE name="Pan" value="0"/>
+								<DBLE name="Fader" value="1"/>
+								<DBLE name="Balance" value="0"/>
+								<DBLE name="Width" value="1"/>
+								<DBLE name="BalWidthPref" value="1"/>
+							</XSET>
+						</XSET>
+						<XSET name="6">
+							<XSET name="PageMixInput">
+								<DBLE name="Solo" value="0"/>
+								<DBLE name="Mute" value="1"/>
+								<DBLE name="Pan" value="0"/>
+								<DBLE name="Fader" value="1"/>
+								<DBLE name="Balance" value="0"/>
+								<DBLE name="Width" value="1"/>
+								<DBLE name="BalWidthPref" value="1"/>
+							</XSET>
+						</XSET>
+						<XSET name="7">
+							<XSET name="PageMixInput">
+								<DBLE name="Solo" value="0"/>
+								<DBLE name="Mute" value="1"/>
+								<DBLE name="Pan" value="0"/>
+								<DBLE name="Fader" value="1"/>
+								<DBLE name="Balance" value="0"/>
+								<DBLE name="Width" value="1"/>
+								<DBLE name="BalWidthPref" value="1"/>
+							</XSET>
+						</XSET>
+						<XSET name="8">
+							<XSET name="PageMixInput">
+								<DBLE name="Solo" value="0"/>
+								<DBLE name="Mute" value="1"/>
+								<DBLE name="Pan" value="0"/>
+								<DBLE name="Fader" value="1"/>
+								<DBLE name="Balance" value="0"/>
+								<DBLE name="Width" value="1"/>
+								<DBLE name="BalWidthPref" value="1"/>
+							</XSET>
+						</XSET>
+						<XSET name="9">
+							<XSET name="PageMixInput">
+								<DBLE name="Solo" value="0"/>
+								<DBLE name="Mute" value="1"/>
+								<DBLE name="Pan" value="0"/>
+								<DBLE name="Fader" value="1"/>
+								<DBLE name="Balance" value="0"/>
+								<DBLE name="Width" value="1"/>
+								<DBLE name="BalWidthPref" value="1"/>
+							</XSET>
+						</XSET>
+					</XSET>
+					<XSET name="PageMix">
+						<DBLE name="BusAssign" value="2"/>
+						<DBLE name="BusMute" value="0"/>
+						<DBLE name="BusFader" value="1"/>
+					</XSET>
+					<XSET name="PageRevSend">
+						<DBLE name="RevSend" value="0"/>
+						<DBLE name="RevReturn" value="0"/>
+					</XSET>
+				</XSET>
+				<XSET name="2">
+					<XSET name="Input">
+						<XSET name="0">
+							<XSET name="PageMixInput">
+								<DBLE name="Solo" value="0"/>
+								<DBLE name="Mute" value="0"/>
+								<DBLE name="Pan" value="0"/>
+								<DBLE name="Fader" value="1"/>
+								<DBLE name="Balance" value="0"/>
+								<DBLE name="Width" value="1"/>
+								<DBLE name="BalWidthPref" value="1"/>
+							</XSET>
+						</XSET>
+						<XSET name="1">
+							<XSET name="PageMixInput">
+								<DBLE name="Solo" value="0"/>
+								<DBLE name="Mute" value="1"/>
+								<DBLE name="Pan" value="0"/>
+								<DBLE name="Fader" value="1"/>
+								<DBLE name="Balance" value="0"/>
+								<DBLE name="Width" value="1"/>
+								<DBLE name="BalWidthPref" value="1"/>
+							</XSET>
+						</XSET>
+						<XSET name="2">
+							<XSET name="PageMixInput">
+								<DBLE name="Solo" value="0"/>
+								<DBLE name="Mute" value="0"/>
+								<DBLE name="Pan" value="0"/>
+								<DBLE name="Fader" value="1"/>
+								<DBLE name="Balance" value="0"/>
+								<DBLE name="Width" value="0"/>
+								<DBLE name="BalWidthPref" value="0"/>
+							</XSET>
+						</XSET>
+						<XSET name="3">
+							<XSET name="PageMixInput">
+								<DBLE name="Solo" value="0"/>
+								<DBLE name="Mute" value="1"/>
+								<DBLE name="Pan" value="0"/>
+								<DBLE name="Fader" value="1"/>
+								<DBLE name="Balance" value="0"/>
+								<DBLE name="Width" value="0"/>
+								<DBLE name="BalWidthPref" value="0"/>
+							</XSET>
+						</XSET>
+						<XSET name="4">
+							<XSET name="PageMixInput">
+								<DBLE name="Solo" value="0"/>
+								<DBLE name="Mute" value="1"/>
+								<DBLE name="Pan" value="0"/>
+								<DBLE name="Fader" value="1"/>
+								<DBLE name="Balance" value="0"/>
+								<DBLE name="Width" value="1"/>
+								<DBLE name="BalWidthPref" value="1"/>
+							</XSET>
+						</XSET>
+						<XSET name="5">
+							<XSET name="PageMixInput">
+								<DBLE name="Solo" value="0"/>
+								<DBLE name="Mute" value="1"/>
+								<DBLE name="Pan" value="0"/>
+								<DBLE name="Fader" value="1"/>
+								<DBLE name="Balance" value="0"/>
+								<DBLE name="Width" value="1"/>
+								<DBLE name="BalWidthPref" value="1"/>
+							</XSET>
+						</XSET>
+						<XSET name="6">
+							<XSET name="PageMixInput">
+								<DBLE name="Solo" value="0"/>
+								<DBLE name="Mute" value="1"/>
+								<DBLE name="Pan" value="0"/>
+								<DBLE name="Fader" value="1"/>
+								<DBLE name="Balance" value="0"/>
+								<DBLE name="Width" value="1"/>
+								<DBLE name="BalWidthPref" value="1"/>
+							</XSET>
+						</XSET>
+						<XSET name="7">
+							<XSET name="PageMixInput">
+								<DBLE name="Solo" value="0"/>
+								<DBLE name="Mute" value="1"/>
+								<DBLE name="Pan" value="0"/>
+								<DBLE name="Fader" value="1"/>
+								<DBLE name="Balance" value="0"/>
+								<DBLE name="Width" value="1"/>
+								<DBLE name="BalWidthPref" value="1"/>
+							</XSET>
+						</XSET>
+						<XSET name="8">
+							<XSET name="PageMixInput">
+								<DBLE name="Solo" value="0"/>
+								<DBLE name="Mute" value="1"/>
+								<DBLE name="Pan" value="0"/>
+								<DBLE name="Fader" value="1"/>
+								<DBLE name="Balance" value="0"/>
+								<DBLE name="Width" value="1"/>
+								<DBLE name="BalWidthPref" value="1"/>
+							</XSET>
+						</XSET>
+						<XSET name="9">
+							<XSET name="PageMixInput">
+								<DBLE name="Solo" value="0"/>
+								<DBLE name="Mute" value="1"/>
+								<DBLE name="Pan" value="0"/>
+								<DBLE name="Fader" value="1"/>
+								<DBLE name="Balance" value="0"/>
+								<DBLE name="Width" value="1"/>
+								<DBLE name="BalWidthPref" value="1"/>
+							</XSET>
+						</XSET>
+					</XSET>
+					<XSET name="PageMix">
+						<DBLE name="BusAssign" value="3"/>
+						<DBLE name="BusMute" value="0"/>
+						<DBLE name="BusFader" value="1"/>
+					</XSET>
+					<XSET name="PageRevSend">
+						<DBLE name="RevSend" value="0"/>
+						<DBLE name="RevReturn" value="0"/>
+					</XSET>
+				</XSET>
+				<XSET name="3">
+					<XSET name="Input">
+						<XSET name="0">
+							<XSET name="PageMixInput">
+								<DBLE name="Solo" value="0"/>
+								<DBLE name="Mute" value="0"/>
+								<DBLE name="Pan" value="0"/>
+								<DBLE name="Fader" value="1"/>
+								<DBLE name="Balance" value="0"/>
+								<DBLE name="Width" value="1"/>
+								<DBLE name="BalWidthPref" value="1"/>
+							</XSET>
+						</XSET>
+						<XSET name="1">
+							<XSET name="PageMixInput">
+								<DBLE name="Solo" value="0"/>
+								<DBLE name="Mute" value="1"/>
+								<DBLE name="Pan" value="0"/>
+								<DBLE name="Fader" value="1"/>
+								<DBLE name="Balance" value="0"/>
+								<DBLE name="Width" value="1"/>
+								<DBLE name="BalWidthPref" value="1"/>
+							</XSET>
+						</XSET>
+						<XSET name="2">
+							<XSET name="PageMixInput">
+								<DBLE name="Solo" value="0"/>
+								<DBLE name="Mute" value="0"/>
+								<DBLE name="Pan" value="0"/>
+								<DBLE name="Fader" value="1"/>
+								<DBLE name="Balance" value="0"/>
+								<DBLE name="Width" value="0"/>
+								<DBLE name="BalWidthPref" value="0"/>
+							</XSET>
+						</XSET>
+						<XSET name="3">
+							<XSET name="PageMixInput">
+								<DBLE name="Solo" value="0"/>
+								<DBLE name="Mute" value="1"/>
+								<DBLE name="Pan" value="0"/>
+								<DBLE name="Fader" value="1"/>
+								<DBLE name="Balance" value="0"/>
+								<DBLE name="Width" value="0"/>
+								<DBLE name="BalWidthPref" value="0"/>
+							</XSET>
+						</XSET>
+						<XSET name="4">
+							<XSET name="PageMixInput">
+								<DBLE name="Solo" value="0"/>
+								<DBLE name="Mute" value="1"/>
+								<DBLE name="Pan" value="0"/>
+								<DBLE name="Fader" value="1"/>
+								<DBLE name="Balance" value="0"/>
+								<DBLE name="Width" value="1"/>
+								<DBLE name="BalWidthPref" value="1"/>
+							</XSET>
+						</XSET>
+						<XSET name="5">
+							<XSET name="PageMixInput">
+								<DBLE name="Solo" value="0"/>
+								<DBLE name="Mute" value="1"/>
+								<DBLE name="Pan" value="0"/>
+								<DBLE name="Fader" value="1"/>
+								<DBLE name="Balance" value="0"/>
+								<DBLE name="Width" value="1"/>
+								<DBLE name="BalWidthPref" value="1"/>
+							</XSET>
+						</XSET>
+						<XSET name="6">
+							<XSET name="PageMixInput">
+								<DBLE name="Solo" value="0"/>
+								<DBLE name="Mute" value="1"/>
+								<DBLE name="Pan" value="0"/>
+								<DBLE name="Fader" value="1"/>
+								<DBLE name="Balance" value="0"/>
+								<DBLE name="Width" value="1"/>
+								<DBLE name="BalWidthPref" value="1"/>
+							</XSET>
+						</XSET>
+						<XSET name="7">
+							<XSET name="PageMixInput">
+								<DBLE name="Solo" value="0"/>
+								<DBLE name="Mute" value="1"/>
+								<DBLE name="Pan" value="0"/>
+								<DBLE name="Fader" value="1"/>
+								<DBLE name="Balance" value="0"/>
+								<DBLE name="Width" value="1"/>
+								<DBLE name="BalWidthPref" value="1"/>
+							</XSET>
+						</XSET>
+						<XSET name="8">
+							<XSET name="PageMixInput">
+								<DBLE name="Solo" value="0"/>
+								<DBLE name="Mute" value="1"/>
+								<DBLE name="Pan" value="0"/>
+								<DBLE name="Fader" value="1"/>
+								<DBLE name="Balance" value="0"/>
+								<DBLE name="Width" value="1"/>
+								<DBLE name="BalWidthPref" value="1"/>
+							</XSET>
+						</XSET>
+						<XSET name="9">
+							<XSET name="PageMixInput">
+								<DBLE name="Solo" value="0"/>
+								<DBLE name="Mute" value="1"/>
+								<DBLE name="Pan" value="0"/>
+								<DBLE name="Fader" value="1"/>
+								<DBLE name="Balance" value="0"/>
+								<DBLE name="Width" value="1"/>
+								<DBLE name="BalWidthPref" value="1"/>
+							</XSET>
+						</XSET>
+					</XSET>
+					<XSET name="PageMix">
+						<DBLE name="BusAssign" value="4"/>
+						<DBLE name="BusMute" value="0"/>
+						<DBLE name="BusFader" value="1"/>
+					</XSET>
+					<XSET name="PageRevSend">
+						<DBLE name="RevSend" value="0"/>
+						<DBLE name="RevReturn" value="0"/>
+					</XSET>
+				</XSET>
+				<XSET name="4">
+					<XSET name="Input">
+						<XSET name="0">
+							<XSET name="PageMixInput">
+								<DBLE name="Solo" value="0"/>
+								<DBLE name="Mute" value="1"/>
+								<DBLE name="Pan" value="0"/>
+								<DBLE name="Fader" value="1"/>
+								<DBLE name="Balance" value="0"/>
+								<DBLE name="Width" value="1"/>
+								<DBLE name="BalWidthPref" value="1"/>
+							</XSET>
+						</XSET>
+						<XSET name="1">
+							<XSET name="PageMixInput">
+								<DBLE name="Solo" value="0"/>
+								<DBLE name="Mute" value="1"/>
+								<DBLE name="Pan" value="0"/>
+								<DBLE name="Fader" value="1"/>
+								<DBLE name="Balance" value="0"/>
+								<DBLE name="Width" value="1"/>
+								<DBLE name="BalWidthPref" value="1"/>
+							</XSET>
+						</XSET>
+						<XSET name="2">
+							<XSET name="PageMixInput">
+								<DBLE name="Solo" value="0"/>
+								<DBLE name="Mute" value="1"/>
+								<DBLE name="Pan" value="0"/>
+								<DBLE name="Fader" value="1"/>
+								<DBLE name="Balance" value="0"/>
+								<DBLE name="Width" value="1"/>
+								<DBLE name="BalWidthPref" value="1"/>
+							</XSET>
+						</XSET>
+						<XSET name="3">
+							<XSET name="PageMixInput">
+								<DBLE name="Solo" value="0"/>
+								<DBLE name="Mute" value="1"/>
+								<DBLE name="Pan" value="0"/>
+								<DBLE name="Fader" value="1"/>
+								<DBLE name="Balance" value="0"/>
+								<DBLE name="Width" value="1"/>
+								<DBLE name="BalWidthPref" value="1"/>
+							</XSET>
+						</XSET>
+						<XSET name="4">
+							<XSET name="PageMixInput">
+								<DBLE name="Solo" value="0"/>
+								<DBLE name="Mute" value="1"/>
+								<DBLE name="Pan" value="0"/>
+								<DBLE name="Fader" value="1"/>
+								<DBLE name="Balance" value="0"/>
+								<DBLE name="Width" value="1"/>
+								<DBLE name="BalWidthPref" value="1"/>
+							</XSET>
+						</XSET>
+						<XSET name="5">
+							<XSET name="PageMixInput">
+								<DBLE name="Solo" value="0"/>
+								<DBLE name="Mute" value="1"/>
+								<DBLE name="Pan" value="0"/>
+								<DBLE name="Fader" value="1"/>
+								<DBLE name="Balance" value="0"/>
+								<DBLE name="Width" value="1"/>
+								<DBLE name="BalWidthPref" value="1"/>
+							</XSET>
+						</XSET>
+						<XSET name="6">
+							<XSET name="PageMixInput">
+								<DBLE name="Solo" value="0"/>
+								<DBLE name="Mute" value="1"/>
+								<DBLE name="Pan" value="0"/>
+								<DBLE name="Fader" value="1"/>
+								<DBLE name="Balance" value="0"/>
+								<DBLE name="Width" value="1"/>
+								<DBLE name="BalWidthPref" value="1"/>
+							</XSET>
+						</XSET>
+						<XSET name="7">
+							<XSET name="PageMixInput">
+								<DBLE name="Solo" value="0"/>
+								<DBLE name="Mute" value="1"/>
+								<DBLE name="Pan" value="0"/>
+								<DBLE name="Fader" value="1"/>
+								<DBLE name="Balance" value="0"/>
+								<DBLE name="Width" value="1"/>
+								<DBLE name="BalWidthPref" value="1"/>
+							</XSET>
+						</XSET>
+						<XSET name="8">
+							<XSET name="PageMixInput">
+								<DBLE name="Solo" value="0"/>
+								<DBLE name="Mute" value="1"/>
+								<DBLE name="Pan" value="0"/>
+								<DBLE name="Fader" value="1"/>
+								<DBLE name="Balance" value="0"/>
+								<DBLE name="Width" value="1"/>
+								<DBLE name="BalWidthPref" value="1"/>
+							</XSET>
+						</XSET>
+						<XSET name="9">
+							<XSET name="PageMixInput">
+								<DBLE name="Solo" value="0"/>
+								<DBLE name="Mute" value="1"/>
+								<DBLE name="Pan" value="0"/>
+								<DBLE name="Fader" value="1"/>
+								<DBLE name="Balance" value="0"/>
+								<DBLE name="Width" value="1"/>
+								<DBLE name="BalWidthPref" value="1"/>
+							</XSET>
+						</XSET>
+					</XSET>
+					<XSET name="PageMix">
+						<DBLE name="BusAssign" value="255"/>
+						<DBLE name="BusMute" value="0"/>
+						<DBLE name="BusFader" value="1"/>
+					</XSET>
+					<XSET name="PageRevSend">
+						<DBLE name="RevSend" value="0"/>
+						<DBLE name="RevReturn" value="0"/>
+					</XSET>
+				</XSET>
+				<XSET name="5">
+					<XSET name="Input">
+						<XSET name="0">
+							<XSET name="PageMixInput">
+								<DBLE name="Solo" value="0"/>
+								<DBLE name="Mute" value="1"/>
+								<DBLE name="Pan" value="0"/>
+								<DBLE name="Fader" value="1"/>
+								<DBLE name="Balance" value="0"/>
+								<DBLE name="Width" value="1"/>
+								<DBLE name="BalWidthPref" value="1"/>
+							</XSET>
+						</XSET>
+						<XSET name="1">
+							<XSET name="PageMixInput">
+								<DBLE name="Solo" value="0"/>
+								<DBLE name="Mute" value="1"/>
+								<DBLE name="Pan" value="0"/>
+								<DBLE name="Fader" value="1"/>
+								<DBLE name="Balance" value="0"/>
+								<DBLE name="Width" value="1"/>
+								<DBLE name="BalWidthPref" value="1"/>
+							</XSET>
+						</XSET>
+						<XSET name="2">
+							<XSET name="PageMixInput">
+								<DBLE name="Solo" value="0"/>
+								<DBLE name="Mute" value="1"/>
+								<DBLE name="Pan" value="0"/>
+								<DBLE name="Fader" value="1"/>
+								<DBLE name="Balance" value="0"/>
+								<DBLE name="Width" value="1"/>
+								<DBLE name="BalWidthPref" value="1"/>
+							</XSET>
+						</XSET>
+						<XSET name="3">
+							<XSET name="PageMixInput">
+								<DBLE name="Solo" value="0"/>
+								<DBLE name="Mute" value="1"/>
+								<DBLE name="Pan" value="0"/>
+								<DBLE name="Fader" value="1"/>
+								<DBLE name="Balance" value="0"/>
+								<DBLE name="Width" value="1"/>
+								<DBLE name="BalWidthPref" value="1"/>
+							</XSET>
+						</XSET>
+						<XSET name="4">
+							<XSET name="PageMixInput">
+								<DBLE name="Solo" value="0"/>
+								<DBLE name="Mute" value="1"/>
+								<DBLE name="Pan" value="0"/>
+								<DBLE name="Fader" value="1"/>
+								<DBLE name="Balance" value="0"/>
+								<DBLE name="Width" value="1"/>
+								<DBLE name="BalWidthPref" value="1"/>
+							</XSET>
+						</XSET>
+						<XSET name="5">
+							<XSET name="PageMixInput">
+								<DBLE name="Solo" value="0"/>
+								<DBLE name="Mute" value="1"/>
+								<DBLE name="Pan" value="0"/>
+								<DBLE name="Fader" value="1"/>
+								<DBLE name="Balance" value="0"/>
+								<DBLE name="Width" value="1"/>
+								<DBLE name="BalWidthPref" value="1"/>
+							</XSET>
+						</XSET>
+						<XSET name="6">
+							<XSET name="PageMixInput">
+								<DBLE name="Solo" value="0"/>
+								<DBLE name="Mute" value="1"/>
+								<DBLE name="Pan" value="0"/>
+								<DBLE name="Fader" value="1"/>
+								<DBLE name="Balance" value="0"/>
+								<DBLE name="Width" value="1"/>
+								<DBLE name="BalWidthPref" value="1"/>
+							</XSET>
+						</XSET>
+						<XSET name="7">
+							<XSET name="PageMixInput">
+								<DBLE name="Solo" value="0"/>
+								<DBLE name="Mute" value="1"/>
+								<DBLE name="Pan" value="0"/>
+								<DBLE name="Fader" value="1"/>
+								<DBLE name="Balance" value="0"/>
+								<DBLE name="Width" value="1"/>
+								<DBLE name="BalWidthPref" value="1"/>
+							</XSET>
+						</XSET>
+						<XSET name="8">
+							<XSET name="PageMixInput">
+								<DBLE name="Solo" value="0"/>
+								<DBLE name="Mute" value="1"/>
+								<DBLE name="Pan" value="0"/>
+								<DBLE name="Fader" value="1"/>
+								<DBLE name="Balance" value="0"/>
+								<DBLE name="Width" value="1"/>
+								<DBLE name="BalWidthPref" value="1"/>
+							</XSET>
+						</XSET>
+						<XSET name="9">
+							<XSET name="PageMixInput">
+								<DBLE name="Solo" value="0"/>
+								<DBLE name="Mute" value="1"/>
+								<DBLE name="Pan" value="0"/>
+								<DBLE name="Fader" value="1"/>
+								<DBLE name="Balance" value="0"/>
+								<DBLE name="Width" value="1"/>
+								<DBLE name="BalWidthPref" value="1"/>
+							</XSET>
+						</XSET>
+					</XSET>
+					<XSET name="PageMix">
+						<DBLE name="BusAssign" value="255"/>
+						<DBLE name="BusMute" value="0"/>
+						<DBLE name="BusFader" value="1"/>
+					</XSET>
+					<XSET name="PageRevSend">
+						<DBLE name="RevSend" value="0"/>
+						<DBLE name="RevReturn" value="0"/>
+					</XSET>
+				</XSET>
+				<XSET name="6">
+					<XSET name="Input">
+						<XSET name="0">
+							<XSET name="PageMixInput">
+								<DBLE name="Solo" value="0"/>
+								<DBLE name="Mute" value="1"/>
+								<DBLE name="Pan" value="0"/>
+								<DBLE name="Fader" value="1"/>
+								<DBLE name="Balance" value="0"/>
+								<DBLE name="Width" value="1"/>
+								<DBLE name="BalWidthPref" value="1"/>
+							</XSET>
+						</XSET>
+						<XSET name="1">
+							<XSET name="PageMixInput">
+								<DBLE name="Solo" value="0"/>
+								<DBLE name="Mute" value="1"/>
+								<DBLE name="Pan" value="0"/>
+								<DBLE name="Fader" value="1"/>
+								<DBLE name="Balance" value="0"/>
+								<DBLE name="Width" value="1"/>
+								<DBLE name="BalWidthPref" value="1"/>
+							</XSET>
+						</XSET>
+						<XSET name="2">
+							<XSET name="PageMixInput">
+								<DBLE name="Solo" value="0"/>
+								<DBLE name="Mute" value="1"/>
+								<DBLE name="Pan" value="0"/>
+								<DBLE name="Fader" value="1"/>
+								<DBLE name="Balance" value="0"/>
+								<DBLE name="Width" value="1"/>
+								<DBLE name="BalWidthPref" value="1"/>
+							</XSET>
+						</XSET>
+						<XSET name="3">
+							<XSET name="PageMixInput">
+								<DBLE name="Solo" value="0"/>
+								<DBLE name="Mute" value="1"/>
+								<DBLE name="Pan" value="0"/>
+								<DBLE name="Fader" value="1"/>
+								<DBLE name="Balance" value="0"/>
+								<DBLE name="Width" value="1"/>
+								<DBLE name="BalWidthPref" value="1"/>
+							</XSET>
+						</XSET>
+						<XSET name="4">
+							<XSET name="PageMixInput">
+								<DBLE name="Solo" value="0"/>
+								<DBLE name="Mute" value="1"/>
+								<DBLE name="Pan" value="0"/>
+								<DBLE name="Fader" value="1"/>
+								<DBLE name="Balance" value="0"/>
+								<DBLE name="Width" value="1"/>
+								<DBLE name="BalWidthPref" value="1"/>
+							</XSET>
+						</XSET>
+						<XSET name="5">
+							<XSET name="PageMixInput">
+								<DBLE name="Solo" value="0"/>
+								<DBLE name="Mute" value="1"/>
+								<DBLE name="Pan" value="0"/>
+								<DBLE name="Fader" value="1"/>
+								<DBLE name="Balance" value="0"/>
+								<DBLE name="Width" value="1"/>
+								<DBLE name="BalWidthPref" value="1"/>
+							</XSET>
+						</XSET>
+						<XSET name="6">
+							<XSET name="PageMixInput">
+								<DBLE name="Solo" value="0"/>
+								<DBLE name="Mute" value="1"/>
+								<DBLE name="Pan" value="0"/>
+								<DBLE name="Fader" value="1"/>
+								<DBLE name="Balance" value="0"/>
+								<DBLE name="Width" value="1"/>
+								<DBLE name="BalWidthPref" value="1"/>
+							</XSET>
+						</XSET>
+						<XSET name="7">
+							<XSET name="PageMixInput">
+								<DBLE name="Solo" value="0"/>
+								<DBLE name="Mute" value="1"/>
+								<DBLE name="Pan" value="0"/>
+								<DBLE name="Fader" value="1"/>
+								<DBLE name="Balance" value="0"/>
+								<DBLE name="Width" value="1"/>
+								<DBLE name="BalWidthPref" value="1"/>
+							</XSET>
+						</XSET>
+						<XSET name="8">
+							<XSET name="PageMixInput">
+								<DBLE name="Solo" value="0"/>
+								<DBLE name="Mute" value="1"/>
+								<DBLE name="Pan" value="0"/>
+								<DBLE name="Fader" value="1"/>
+								<DBLE name="Balance" value="0"/>
+								<DBLE name="Width" value="1"/>
+								<DBLE name="BalWidthPref" value="1"/>
+							</XSET>
+						</XSET>
+						<XSET name="9">
+							<XSET name="PageMixInput">
+								<DBLE name="Solo" value="0"/>
+								<DBLE name="Mute" value="1"/>
+								<DBLE name="Pan" value="0"/>
+								<DBLE name="Fader" value="1"/>
+								<DBLE name="Balance" value="0"/>
+								<DBLE name="Width" value="1"/>
+								<DBLE name="BalWidthPref" value="1"/>
+							</XSET>
+						</XSET>
+					</XSET>
+					<XSET name="PageMix">
+						<DBLE name="BusAssign" value="255"/>
+						<DBLE name="BusMute" value="0"/>
+						<DBLE name="BusFader" value="1"/>
+					</XSET>
+					<XSET name="PageRevSend">
+						<DBLE name="RevSend" value="0"/>
+						<DBLE name="RevReturn" value="0"/>
+					</XSET>
+				</XSET>
+				<XSET name="7">
+					<XSET name="Input">
+						<XSET name="0">
+							<XSET name="PageMixInput">
+								<DBLE name="Solo" value="0"/>
+								<DBLE name="Mute" value="1"/>
+								<DBLE name="Pan" value="0"/>
+								<DBLE name="Fader" value="1"/>
+								<DBLE name="Balance" value="0"/>
+								<DBLE name="Width" value="1"/>
+								<DBLE name="BalWidthPref" value="1"/>
+							</XSET>
+						</XSET>
+						<XSET name="1">
+							<XSET name="PageMixInput">
+								<DBLE name="Solo" value="0"/>
+								<DBLE name="Mute" value="1"/>
+								<DBLE name="Pan" value="0"/>
+								<DBLE name="Fader" value="1"/>
+								<DBLE name="Balance" value="0"/>
+								<DBLE name="Width" value="1"/>
+								<DBLE name="BalWidthPref" value="1"/>
+							</XSET>
+						</XSET>
+						<XSET name="2">
+							<XSET name="PageMixInput">
+								<DBLE name="Solo" value="0"/>
+								<DBLE name="Mute" value="1"/>
+								<DBLE name="Pan" value="0"/>
+								<DBLE name="Fader" value="1"/>
+								<DBLE name="Balance" value="0"/>
+								<DBLE name="Width" value="1"/>
+								<DBLE name="BalWidthPref" value="1"/>
+							</XSET>
+						</XSET>
+						<XSET name="3">
+							<XSET name="PageMixInput">
+								<DBLE name="Solo" value="0"/>
+								<DBLE name="Mute" value="1"/>
+								<DBLE name="Pan" value="0"/>
+								<DBLE name="Fader" value="1"/>
+								<DBLE name="Balance" value="0"/>
+								<DBLE name="Width" value="1"/>
+								<DBLE name="BalWidthPref" value="1"/>
+							</XSET>
+						</XSET>
+						<XSET name="4">
+							<XSET name="PageMixInput">
+								<DBLE name="Solo" value="0"/>
+								<DBLE name="Mute" value="1"/>
+								<DBLE name="Pan" value="0"/>
+								<DBLE name="Fader" value="1"/>
+								<DBLE name="Balance" value="0"/>
+								<DBLE name="Width" value="1"/>
+								<DBLE name="BalWidthPref" value="1"/>
+							</XSET>
+						</XSET>
+						<XSET name="5">
+							<XSET name="PageMixInput">
+								<DBLE name="Solo" value="0"/>
+								<DBLE name="Mute" value="1"/>
+								<DBLE name="Pan" value="0"/>
+								<DBLE name="Fader" value="1"/>
+								<DBLE name="Balance" value="0"/>
+								<DBLE name="Width" value="1"/>
+								<DBLE name="BalWidthPref" value="1"/>
+							</XSET>
+						</XSET>
+						<XSET name="6">
+							<XSET name="PageMixInput">
+								<DBLE name="Solo" value="0"/>
+								<DBLE name="Mute" value="1"/>
+								<DBLE name="Pan" value="0"/>
+								<DBLE name="Fader" value="1"/>
+								<DBLE name="Balance" value="0"/>
+								<DBLE name="Width" value="1"/>
+								<DBLE name="BalWidthPref" value="1"/>
+							</XSET>
+						</XSET>
+						<XSET name="7">
+							<XSET name="PageMixInput">
+								<DBLE name="Solo" value="0"/>
+								<DBLE name="Mute" value="1"/>
+								<DBLE name="Pan" value="0"/>
+								<DBLE name="Fader" value="1"/>
+								<DBLE name="Balance" value="0"/>
+								<DBLE name="Width" value="1"/>
+								<DBLE name="BalWidthPref" value="1"/>
+							</XSET>
+						</XSET>
+						<XSET name="8">
+							<XSET name="PageMixInput">
+								<DBLE name="Solo" value="0"/>
+								<DBLE name="Mute" value="1"/>
+								<DBLE name="Pan" value="0"/>
+								<DBLE name="Fader" value="1"/>
+								<DBLE name="Balance" value="0"/>
+								<DBLE name="Width" value="1"/>
+								<DBLE name="BalWidthPref" value="1"/>
+							</XSET>
+						</XSET>
+						<XSET name="9">
+							<XSET name="PageMixInput">
+								<DBLE name="Solo" value="0"/>
+								<DBLE name="Mute" value="1"/>
+								<DBLE name="Pan" value="0"/>
+								<DBLE name="Fader" value="1"/>
+								<DBLE name="Balance" value="0"/>
+								<DBLE name="Width" value="1"/>
+								<DBLE name="BalWidthPref" value="1"/>
+							</XSET>
+						</XSET>
+					</XSET>
+					<XSET name="PageMix">
+						<DBLE name="BusAssign" value="255"/>
+						<DBLE name="BusMute" value="0"/>
+						<DBLE name="BusFader" value="1"/>
+					</XSET>
+					<XSET name="PageRevSend">
+						<DBLE name="RevSend" value="0"/>
+						<DBLE name="RevReturn" value="0"/>
+					</XSET>
+				</XSET>
+			</XSET>
+			<XSET name="Output">
+				<XSET name="0">
+					<XSET name="PageOutput">
+						<DBLE name="OutputMute" value="0"/>
+						<DBLE name="OutputFader" value="0"/>
+					</XSET>
+					<XSET name="PageEQ">
+						<DBLE name="EQEnable" value="0"/>
+					</XSET>
+					<XSET name="PageEQHPF">
+						<DBLE name="EQFreq" value="20"/>
+						<DBLE name="EQBandEnabled" value="0"/>
+						<DBLE name="EQType" value="1"/>
+					</XSET>
+					<XSET name="PageEQLF">
+						<DBLE name="EQFreq" value="120"/>
+						<DBLE name="EQGain" value="0"/>
+						<DBLE name="EQQ" value="1"/>
+						<DBLE name="EQBandEnabled" value="1"/>
+						<DBLE name="EQType" value="4"/>
+					</XSET>
+					<XSET name="PageEQLMF">
+						<DBLE name="EQFreq" value="1000"/>
+						<DBLE name="EQGain" value="0"/>
+						<DBLE name="EQQ" value="1"/>
+						<DBLE name="EQBandEnabled" value="0"/>
+						<DBLE name="EQType" value="0"/>
+					</XSET>
+					<XSET name="PageEQMF">
+						<DBLE name="EQFreq" value="2000"/>
+						<DBLE name="EQGain" value="0"/>
+						<DBLE name="EQQ" value="1"/>
+						<DBLE name="EQBandEnabled" value="0"/>
+						<DBLE name="EQType" value="0"/>
+					</XSET>
+					<XSET name="PageEQHMF">
+						<DBLE name="EQFreq" value="4000"/>
+						<DBLE name="EQGain" value="0"/>
+						<DBLE name="EQQ" value="1"/>
+						<DBLE name="EQBandEnabled" value="0"/>
+						<DBLE name="EQType" value="0"/>
+					</XSET>
+					<XSET name="PageEQHF">
+						<DBLE name="EQFreq" value="18000"/>
+						<DBLE name="EQGain" value="0"/>
+						<DBLE name="EQQ" value="1"/>
+						<DBLE name="EQBandEnabled" value="1"/>
+						<DBLE name="EQType" value="4"/>
+					</XSET>
+					<XSET name="PageEQLPF">
+						<DBLE name="EQFreq" value="20000"/>
+						<DBLE name="EQBandEnabled" value="0"/>
+						<DBLE name="EQType" value="1"/>
+					</XSET>
+					<XSET name="PageDynamics">
+						<DBLE name="DynamicsEnable" value="0"/>
+					</XSET>
+					<XSET name="PageComp">
+						<DBLE name="CompEnable" value="0"/>
+						<DBLE name="CompThresh" value="0"/>
+						<DBLE name="CompRatio" value="2"/>
+						<DBLE name="CompAttack" value="10"/>
+						<DBLE name="CompRelease" value="500"/>
+						<DBLE name="CompTrim" value="0"/>
+						<DBLE name="CompKnee" value="0"/>
+						<DBLE name="CompDetectorMode" value="1"/>
+					</XSET>
+					<XSET name="PageLeveler">
+						<DBLE name="LevelerEnable" value="1"/>
+						<DBLE name="LevelerMode" value="0"/>
+						<DBLE name="LevelerGainReduction" value="20"/>
+						<DBLE name="LevelerMakeupGain" value="20"/>
+					</XSET>
+					<XSET name="PageRevSend">
+						<DBLE name="RevSend" value="0"/>
+						<DBLE name="RevReturn" value="0"/>
+					</XSET>
+					<XSET name="PageMaster">
+						<DBLE name="MasterFaderEnable" value="1"/>
+						<DBLE name="TBOutput" value="0"/>
+						<DBLE name="LBOutput" value="0"/>
+					</XSET>
+				</XSET>
+				<XSET name="2">
+					<XSET name="PageOutput">
+						<DBLE name="OutputMute" value="0"/>
+						<DBLE name="OutputFader" value="0"/>
+					</XSET>
+					<XSET name="PageEQ">
+						<DBLE name="EQEnable" value="0"/>
+					</XSET>
+					<XSET name="PageEQHPF">
+						<DBLE name="EQFreq" value="20"/>
+						<DBLE name="EQBandEnabled" value="0"/>
+						<DBLE name="EQType" value="1"/>
+					</XSET>
+					<XSET name="PageEQLF">
+						<DBLE name="EQFreq" value="120"/>
+						<DBLE name="EQGain" value="0"/>
+						<DBLE name="EQQ" value="1"/>
+						<DBLE name="EQBandEnabled" value="1"/>
+						<DBLE name="EQType" value="4"/>
+					</XSET>
+					<XSET name="PageEQLMF">
+						<DBLE name="EQFreq" value="1000"/>
+						<DBLE name="EQGain" value="0"/>
+						<DBLE name="EQQ" value="1"/>
+						<DBLE name="EQBandEnabled" value="0"/>
+						<DBLE name="EQType" value="0"/>
+					</XSET>
+					<XSET name="PageEQMF">
+						<DBLE name="EQFreq" value="2000"/>
+						<DBLE name="EQGain" value="0"/>
+						<DBLE name="EQQ" value="1"/>
+						<DBLE name="EQBandEnabled" value="0"/>
+						<DBLE name="EQType" value="0"/>
+					</XSET>
+					<XSET name="PageEQHMF">
+						<DBLE name="EQFreq" value="4000"/>
+						<DBLE name="EQGain" value="0"/>
+						<DBLE name="EQQ" value="1"/>
+						<DBLE name="EQBandEnabled" value="0"/>
+						<DBLE name="EQType" value="0"/>
+					</XSET>
+					<XSET name="PageEQHF">
+						<DBLE name="EQFreq" value="18000"/>
+						<DBLE name="EQGain" value="0"/>
+						<DBLE name="EQQ" value="1"/>
+						<DBLE name="EQBandEnabled" value="1"/>
+						<DBLE name="EQType" value="4"/>
+					</XSET>
+					<XSET name="PageEQLPF">
+						<DBLE name="EQFreq" value="20000"/>
+						<DBLE name="EQBandEnabled" value="0"/>
+						<DBLE name="EQType" value="1"/>
+					</XSET>
+					<XSET name="PageDynamics">
+						<DBLE name="DynamicsEnable" value="0"/>
+					</XSET>
+					<XSET name="PageComp">
+						<DBLE name="CompEnable" value="1"/>
+						<DBLE name="CompThresh" value="0"/>
+						<DBLE name="CompRatio" value="2"/>
+						<DBLE name="CompAttack" value="10"/>
+						<DBLE name="CompRelease" value="500"/>
+						<DBLE name="CompTrim" value="0"/>
+						<DBLE name="CompKnee" value="0"/>
+						<DBLE name="CompDetectorMode" value="1"/>
+					</XSET>
+					<XSET name="PageLeveler">
+						<DBLE name="LevelerEnable" value="0"/>
+						<DBLE name="LevelerMode" value="0"/>
+						<DBLE name="LevelerGainReduction" value="20"/>
+						<DBLE name="LevelerMakeupGain" value="20"/>
+					</XSET>
+					<XSET name="PageRevSend">
+						<DBLE name="RevSend" value="0"/>
+						<DBLE name="RevReturn" value="0"/>
+					</XSET>
+					<XSET name="PageMaster">
+						<DBLE name="MasterFaderEnable" value="1"/>
+						<DBLE name="TBOutput" value="0"/>
+						<DBLE name="LBOutput" value="0"/>
+					</XSET>
+				</XSET>
+				<XSET name="4">
+					<XSET name="PageOutput">
+						<DBLE name="OutputMute" value="0"/>
+						<DBLE name="OutputFader" value="0"/>
+					</XSET>
+					<XSET name="PageEQ">
+						<DBLE name="EQEnable" value="0"/>
+					</XSET>
+					<XSET name="PageEQHPF">
+						<DBLE name="EQFreq" value="20"/>
+						<DBLE name="EQBandEnabled" value="0"/>
+						<DBLE name="EQType" value="1"/>
+					</XSET>
+					<XSET name="PageEQLF">
+						<DBLE name="EQFreq" value="120"/>
+						<DBLE name="EQGain" value="0"/>
+						<DBLE name="EQQ" value="1"/>
+						<DBLE name="EQBandEnabled" value="1"/>
+						<DBLE name="EQType" value="4"/>
+					</XSET>
+					<XSET name="PageEQLMF">
+						<DBLE name="EQFreq" value="1000"/>
+						<DBLE name="EQGain" value="0"/>
+						<DBLE name="EQQ" value="1"/>
+						<DBLE name="EQBandEnabled" value="0"/>
+						<DBLE name="EQType" value="0"/>
+					</XSET>
+					<XSET name="PageEQMF">
+						<DBLE name="EQFreq" value="2000"/>
+						<DBLE name="EQGain" value="0"/>
+						<DBLE name="EQQ" value="1"/>
+						<DBLE name="EQBandEnabled" value="0"/>
+						<DBLE name="EQType" value="0"/>
+					</XSET>
+					<XSET name="PageEQHMF">
+						<DBLE name="EQFreq" value="4000"/>
+						<DBLE name="EQGain" value="0"/>
+						<DBLE name="EQQ" value="1"/>
+						<DBLE name="EQBandEnabled" value="0"/>
+						<DBLE name="EQType" value="0"/>
+					</XSET>
+					<XSET name="PageEQHF">
+						<DBLE name="EQFreq" value="18000"/>
+						<DBLE name="EQGain" value="0"/>
+						<DBLE name="EQQ" value="1"/>
+						<DBLE name="EQBandEnabled" value="1"/>
+						<DBLE name="EQType" value="4"/>
+					</XSET>
+					<XSET name="PageEQLPF">
+						<DBLE name="EQFreq" value="20000"/>
+						<DBLE name="EQBandEnabled" value="0"/>
+						<DBLE name="EQType" value="1"/>
+					</XSET>
+					<XSET name="PageDynamics">
+						<DBLE name="DynamicsEnable" value="0"/>
+					</XSET>
+					<XSET name="PageComp">
+						<DBLE name="CompEnable" value="1"/>
+						<DBLE name="CompThresh" value="0"/>
+						<DBLE name="CompRatio" value="2"/>
+						<DBLE name="CompAttack" value="10"/>
+						<DBLE name="CompRelease" value="500"/>
+						<DBLE name="CompTrim" value="0"/>
+						<DBLE name="CompKnee" value="0"/>
+						<DBLE name="CompDetectorMode" value="1"/>
+					</XSET>
+					<XSET name="PageLeveler">
+						<DBLE name="LevelerEnable" value="0"/>
+						<DBLE name="LevelerMode" value="0"/>
+						<DBLE name="LevelerGainReduction" value="20"/>
+						<DBLE name="LevelerMakeupGain" value="20"/>
+					</XSET>
+					<XSET name="PageRevSend">
+						<DBLE name="RevSend" value="0"/>
+						<DBLE name="RevReturn" value="0"/>
+					</XSET>
+					<XSET name="PageMaster">
+						<DBLE name="MasterFaderEnable" value="1"/>
+						<DBLE name="TBOutput" value="0"/>
+						<DBLE name="LBOutput" value="0"/>
+					</XSET>
+				</XSET>
+				<XSET name="6">
+					<XSET name="PageOutput">
+						<DBLE name="OutputMute" value="0"/>
+						<DBLE name="OutputFader" value="0"/>
+					</XSET>
+					<XSET name="PageEQ">
+						<DBLE name="EQEnable" value="0"/>
+					</XSET>
+					<XSET name="PageEQHPF">
+						<DBLE name="EQFreq" value="20"/>
+						<DBLE name="EQBandEnabled" value="0"/>
+						<DBLE name="EQType" value="1"/>
+					</XSET>
+					<XSET name="PageEQLF">
+						<DBLE name="EQFreq" value="120"/>
+						<DBLE name="EQGain" value="0"/>
+						<DBLE name="EQQ" value="1"/>
+						<DBLE name="EQBandEnabled" value="1"/>
+						<DBLE name="EQType" value="4"/>
+					</XSET>
+					<XSET name="PageEQLMF">
+						<DBLE name="EQFreq" value="1000"/>
+						<DBLE name="EQGain" value="0"/>
+						<DBLE name="EQQ" value="1"/>
+						<DBLE name="EQBandEnabled" value="0"/>
+						<DBLE name="EQType" value="0"/>
+					</XSET>
+					<XSET name="PageEQMF">
+						<DBLE name="EQFreq" value="2000"/>
+						<DBLE name="EQGain" value="0"/>
+						<DBLE name="EQQ" value="1"/>
+						<DBLE name="EQBandEnabled" value="0"/>
+						<DBLE name="EQType" value="0"/>
+					</XSET>
+					<XSET name="PageEQHMF">
+						<DBLE name="EQFreq" value="4000"/>
+						<DBLE name="EQGain" value="0"/>
+						<DBLE name="EQQ" value="1"/>
+						<DBLE name="EQBandEnabled" value="0"/>
+						<DBLE name="EQType" value="0"/>
+					</XSET>
+					<XSET name="PageEQHF">
+						<DBLE name="EQFreq" value="18000"/>
+						<DBLE name="EQGain" value="0"/>
+						<DBLE name="EQQ" value="1"/>
+						<DBLE name="EQBandEnabled" value="1"/>
+						<DBLE name="EQType" value="4"/>
+					</XSET>
+					<XSET name="PageEQLPF">
+						<DBLE name="EQFreq" value="20000"/>
+						<DBLE name="EQBandEnabled" value="0"/>
+						<DBLE name="EQType" value="1"/>
+					</XSET>
+					<XSET name="PageDynamics">
+						<DBLE name="DynamicsEnable" value="0"/>
+					</XSET>
+					<XSET name="PageComp">
+						<DBLE name="CompEnable" value="1"/>
+						<DBLE name="CompThresh" value="0"/>
+						<DBLE name="CompRatio" value="2"/>
+						<DBLE name="CompAttack" value="10"/>
+						<DBLE name="CompRelease" value="500"/>
+						<DBLE name="CompTrim" value="0"/>
+						<DBLE name="CompKnee" value="0"/>
+						<DBLE name="CompDetectorMode" value="1"/>
+					</XSET>
+					<XSET name="PageLeveler">
+						<DBLE name="LevelerEnable" value="0"/>
+						<DBLE name="LevelerMode" value="0"/>
+						<DBLE name="LevelerGainReduction" value="20"/>
+						<DBLE name="LevelerMakeupGain" value="20"/>
+					</XSET>
+					<XSET name="PageRevSend">
+						<DBLE name="RevSend" value="0"/>
+						<DBLE name="RevReturn" value="0"/>
+					</XSET>
+					<XSET name="PageMaster">
+						<DBLE name="MasterFaderEnable" value="1"/>
+						<DBLE name="TBOutput" value="0"/>
+						<DBLE name="LBOutput" value="0"/>
+					</XSET>
+				</XSET>
+				<XSET name="8">
+					<XSET name="PageOutput">
+						<DBLE name="OutputMute" value="0"/>
+						<DBLE name="OutputFader" value="0"/>
+					</XSET>
+					<XSET name="PageEQ">
+						<DBLE name="EQEnable" value="0"/>
+					</XSET>
+					<XSET name="PageEQHPF">
+						<DBLE name="EQFreq" value="20"/>
+						<DBLE name="EQBandEnabled" value="0"/>
+						<DBLE name="EQType" value="1"/>
+					</XSET>
+					<XSET name="PageEQLF">
+						<DBLE name="EQFreq" value="120"/>
+						<DBLE name="EQGain" value="0"/>
+						<DBLE name="EQQ" value="1"/>
+						<DBLE name="EQBandEnabled" value="1"/>
+						<DBLE name="EQType" value="4"/>
+					</XSET>
+					<XSET name="PageEQLMF">
+						<DBLE name="EQFreq" value="1000"/>
+						<DBLE name="EQGain" value="0"/>
+						<DBLE name="EQQ" value="1"/>
+						<DBLE name="EQBandEnabled" value="0"/>
+						<DBLE name="EQType" value="0"/>
+					</XSET>
+					<XSET name="PageEQMF">
+						<DBLE name="EQFreq" value="2000"/>
+						<DBLE name="EQGain" value="0"/>
+						<DBLE name="EQQ" value="1"/>
+						<DBLE name="EQBandEnabled" value="0"/>
+						<DBLE name="EQType" value="0"/>
+					</XSET>
+					<XSET name="PageEQHMF">
+						<DBLE name="EQFreq" value="4000"/>
+						<DBLE name="EQGain" value="0"/>
+						<DBLE name="EQQ" value="1"/>
+						<DBLE name="EQBandEnabled" value="0"/>
+						<DBLE name="EQType" value="0"/>
+					</XSET>
+					<XSET name="PageEQHF">
+						<DBLE name="EQFreq" value="18000"/>
+						<DBLE name="EQGain" value="0"/>
+						<DBLE name="EQQ" value="1"/>
+						<DBLE name="EQBandEnabled" value="1"/>
+						<DBLE name="EQType" value="4"/>
+					</XSET>
+					<XSET name="PageEQLPF">
+						<DBLE name="EQFreq" value="20000"/>
+						<DBLE name="EQBandEnabled" value="0"/>
+						<DBLE name="EQType" value="1"/>
+					</XSET>
+					<XSET name="PageDynamics">
+						<DBLE name="DynamicsEnable" value="0"/>
+					</XSET>
+					<XSET name="PageComp">
+						<DBLE name="CompEnable" value="1"/>
+						<DBLE name="CompThresh" value="0"/>
+						<DBLE name="CompRatio" value="2"/>
+						<DBLE name="CompAttack" value="10"/>
+						<DBLE name="CompRelease" value="500"/>
+						<DBLE name="CompTrim" value="0"/>
+						<DBLE name="CompKnee" value="0"/>
+						<DBLE name="CompDetectorMode" value="1"/>
+					</XSET>
+					<XSET name="PageLeveler">
+						<DBLE name="LevelerEnable" value="0"/>
+						<DBLE name="LevelerMode" value="0"/>
+						<DBLE name="LevelerGainReduction" value="20"/>
+						<DBLE name="LevelerMakeupGain" value="20"/>
+					</XSET>
+					<XSET name="PageRevSend">
+						<DBLE name="RevSend" value="0"/>
+						<DBLE name="RevReturn" value="0"/>
+					</XSET>
+					<XSET name="PageMaster">
+						<DBLE name="MasterFaderEnable" value="1"/>
+						<DBLE name="TBOutput" value="0"/>
+						<DBLE name="LBOutput" value="0"/>
+					</XSET>
+				</XSET>
+				<XSET name="10">
+					<XSET name="PageOutput">
+						<DBLE name="OutputMute" value="0"/>
+						<DBLE name="OutputFader" value="0"/>
+					</XSET>
+					<XSET name="PageEQ">
+						<DBLE name="EQEnable" value="0"/>
+					</XSET>
+					<XSET name="PageEQHPF">
+						<DBLE name="EQFreq" value="20"/>
+						<DBLE name="EQBandEnabled" value="0"/>
+						<DBLE name="EQType" value="1"/>
+					</XSET>
+					<XSET name="PageEQLF">
+						<DBLE name="EQFreq" value="120"/>
+						<DBLE name="EQGain" value="0"/>
+						<DBLE name="EQQ" value="1"/>
+						<DBLE name="EQBandEnabled" value="1"/>
+						<DBLE name="EQType" value="4"/>
+					</XSET>
+					<XSET name="PageEQLMF">
+						<DBLE name="EQFreq" value="1000"/>
+						<DBLE name="EQGain" value="0"/>
+						<DBLE name="EQQ" value="1"/>
+						<DBLE name="EQBandEnabled" value="0"/>
+						<DBLE name="EQType" value="0"/>
+					</XSET>
+					<XSET name="PageEQMF">
+						<DBLE name="EQFreq" value="2000"/>
+						<DBLE name="EQGain" value="0"/>
+						<DBLE name="EQQ" value="1"/>
+						<DBLE name="EQBandEnabled" value="0"/>
+						<DBLE name="EQType" value="0"/>
+					</XSET>
+					<XSET name="PageEQHMF">
+						<DBLE name="EQFreq" value="4000"/>
+						<DBLE name="EQGain" value="0"/>
+						<DBLE name="EQQ" value="1"/>
+						<DBLE name="EQBandEnabled" value="0"/>
+						<DBLE name="EQType" value="0"/>
+					</XSET>
+					<XSET name="PageEQHF">
+						<DBLE name="EQFreq" value="18000"/>
+						<DBLE name="EQGain" value="0"/>
+						<DBLE name="EQQ" value="1"/>
+						<DBLE name="EQBandEnabled" value="1"/>
+						<DBLE name="EQType" value="4"/>
+					</XSET>
+					<XSET name="PageEQLPF">
+						<DBLE name="EQFreq" value="20000"/>
+						<DBLE name="EQBandEnabled" value="0"/>
+						<DBLE name="EQType" value="1"/>
+					</XSET>
+					<XSET name="PageDynamics">
+						<DBLE name="DynamicsEnable" value="0"/>
+					</XSET>
+					<XSET name="PageComp">
+						<DBLE name="CompEnable" value="1"/>
+						<DBLE name="CompThresh" value="0"/>
+						<DBLE name="CompRatio" value="2"/>
+						<DBLE name="CompAttack" value="10"/>
+						<DBLE name="CompRelease" value="500"/>
+						<DBLE name="CompTrim" value="0"/>
+						<DBLE name="CompKnee" value="0"/>
+						<DBLE name="CompDetectorMode" value="1"/>
+					</XSET>
+					<XSET name="PageLeveler">
+						<DBLE name="LevelerEnable" value="0"/>
+						<DBLE name="LevelerMode" value="0"/>
+						<DBLE name="LevelerGainReduction" value="20"/>
+						<DBLE name="LevelerMakeupGain" value="20"/>
+					</XSET>
+					<XSET name="PageRevSend">
+						<DBLE name="RevSend" value="0"/>
+						<DBLE name="RevReturn" value="0"/>
+					</XSET>
+					<XSET name="PageMaster">
+						<DBLE name="MasterFaderEnable" value="0"/>
+						<DBLE name="TBOutput" value="0"/>
+						<DBLE name="LBOutput" value="0"/>
+					</XSET>
+				</XSET>
+				<XSET name="12">
+					<XSET name="PageOutput">
+						<DBLE name="OutputMute" value="0"/>
+						<DBLE name="OutputFader" value="0"/>
+					</XSET>
+					<XSET name="PageEQ">
+						<DBLE name="EQEnable" value="0"/>
+					</XSET>
+					<XSET name="PageEQHPF">
+						<DBLE name="EQFreq" value="20"/>
+						<DBLE name="EQBandEnabled" value="0"/>
+						<DBLE name="EQType" value="1"/>
+					</XSET>
+					<XSET name="PageEQLF">
+						<DBLE name="EQFreq" value="120"/>
+						<DBLE name="EQGain" value="0"/>
+						<DBLE name="EQQ" value="1"/>
+						<DBLE name="EQBandEnabled" value="1"/>
+						<DBLE name="EQType" value="4"/>
+					</XSET>
+					<XSET name="PageEQLMF">
+						<DBLE name="EQFreq" value="1000"/>
+						<DBLE name="EQGain" value="0"/>
+						<DBLE name="EQQ" value="1"/>
+						<DBLE name="EQBandEnabled" value="0"/>
+						<DBLE name="EQType" value="0"/>
+					</XSET>
+					<XSET name="PageEQMF">
+						<DBLE name="EQFreq" value="2000"/>
+						<DBLE name="EQGain" value="0"/>
+						<DBLE name="EQQ" value="1"/>
+						<DBLE name="EQBandEnabled" value="0"/>
+						<DBLE name="EQType" value="0"/>
+					</XSET>
+					<XSET name="PageEQHMF">
+						<DBLE name="EQFreq" value="4000"/>
+						<DBLE name="EQGain" value="0"/>
+						<DBLE name="EQQ" value="1"/>
+						<DBLE name="EQBandEnabled" value="0"/>
+						<DBLE name="EQType" value="0"/>
+					</XSET>
+					<XSET name="PageEQHF">
+						<DBLE name="EQFreq" value="18000"/>
+						<DBLE name="EQGain" value="0"/>
+						<DBLE name="EQQ" value="1"/>
+						<DBLE name="EQBandEnabled" value="1"/>
+						<DBLE name="EQType" value="4"/>
+					</XSET>
+					<XSET name="PageEQLPF">
+						<DBLE name="EQFreq" value="20000"/>
+						<DBLE name="EQBandEnabled" value="0"/>
+						<DBLE name="EQType" value="1"/>
+					</XSET>
+					<XSET name="PageDynamics">
+						<DBLE name="DynamicsEnable" value="0"/>
+					</XSET>
+					<XSET name="PageComp">
+						<DBLE name="CompEnable" value="1"/>
+						<DBLE name="CompThresh" value="0"/>
+						<DBLE name="CompRatio" value="2"/>
+						<DBLE name="CompAttack" value="10"/>
+						<DBLE name="CompRelease" value="500"/>
+						<DBLE name="CompTrim" value="0"/>
+						<DBLE name="CompKnee" value="0"/>
+						<DBLE name="CompDetectorMode" value="1"/>
+					</XSET>
+					<XSET name="PageLeveler">
+						<DBLE name="LevelerEnable" value="0"/>
+						<DBLE name="LevelerMode" value="0"/>
+						<DBLE name="LevelerGainReduction" value="20"/>
+						<DBLE name="LevelerMakeupGain" value="20"/>
+					</XSET>
+					<XSET name="PageRevSend">
+						<DBLE name="RevSend" value="0"/>
+						<DBLE name="RevReturn" value="0"/>
+					</XSET>
+					<XSET name="PageMaster">
+						<DBLE name="MasterFaderEnable" value="1"/>
+						<DBLE name="TBOutput" value="0"/>
+						<DBLE name="LBOutput" value="0"/>
+					</XSET>
+				</XSET>
+			</XSET>
+			<XSET name="HostInput"/>
+			<XSET name="PageRevAlgo">
+				<DBLE name="RevEnable" value="1"/>
+				<DBLE name="RevSplitPoint" value="1"/>
+				<DBLE name="RevTime" value="500"/>
+				<DBLE name="RevPreDelay" value="0"/>
+				<DBLE name="RevCutFreq" value="16000"/>
+				<DBLE name="RevCutLevel" value="0"/>
+				<DBLE name="RevRefsSet" value="0"/>
+				<DBLE name="RevRefsSize" value="100"/>
+				<DBLE name="RevRefsLevel" value="1"/>
+				<DBLE name="RevTimeLo" value="100"/>
+				<DBLE name="RevTimeMid" value="50"/>
+				<DBLE name="RevTimeHi" value="25"/>
+				<DBLE name="RevFreqLo" value="500"/>
+				<DBLE name="RevFreqHi" value="2000"/>
+				<DBLE name="RevWidth" value="1"/>
+			</XSET>
+			<XSET name="PageDevice">
+				<DBLE name="MonitorLevel" value="1"/>
+				<DBLE name="TBInput" value="255"/>
+				<DBLE name="LBInput" value="255"/>
+				<DBLE name="TBAttLevel" value="0.707107"/>
+				<DBLE name="LBAttLevel" value="0.707107"/>
+				<DBLE name="TBLink" value="0"/>
+			</XSET>
+		</XSET>
+	</XSET>
+</resource_list>
