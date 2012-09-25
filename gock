@@ -1,0 +1,5 @@
+#!/bin/bash
+
+chuck $@ Std2 Gaussian CtlOnePole gfx SmeakySynth FilterStack SmeakyControl
+
+killall chuck
