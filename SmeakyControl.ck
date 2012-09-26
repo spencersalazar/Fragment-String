@@ -17,7 +17,7 @@ class HandCtlFilter extends CtlOnePole
 class Feedback extends Chubgraph
 {
     inlet => Gain direct => outlet;
-    inlet => Delay delay => Gain feedback => outlet;
+    inlet => DelayA delay => Gain feedback => outlet;
     feedback => delay;
 }
 
@@ -32,7 +32,7 @@ class Hand extends Chubgraph
 
 class RightHand extends Hand
 {
-    inlet => SmeakySynth sm => Gain direct => Gain master;
+    inlet => SmeakySynth sm => BRF sweeper1 => Gain direct => Gain master;
     
     sm => Gain beastModeInput;
     Feedback fb[NUM_CHANNELS];
@@ -41,6 +41,8 @@ class RightHand extends Hand
     Gain multiOut[NUM_CHANNELS];
     0 => int inBeastMode;
     0 => beastModeInput.gain;
+    
+    10 => sweeper1.Q;
     
     for(int j; j < NUM_CHANNELS; j++)
     {
@@ -64,6 +66,8 @@ class RightHand extends Hand
     
     0.95 => float RECORD_THRESHOLD;
     0.90 => float PLAY_THRESHOLD;
+    
+    spork ~ go();
     
     fun void processX(float x)
     {
@@ -129,6 +133,18 @@ class RightHand extends Hand
         chout <= "normal mode\n";
         0 => inBeastMode;
         0 => beastModeInput.gain;
+    }
+    
+    fun void go()
+    {
+        20::ms => dur kr;
+        samp/second => float SRATE;
+        
+        while(true)
+        {
+            700+500*Math.sin(2*Math.PI*(kr/samp)/SRATE*2) => sweeper1.freq;
+            kr => now;
+        }
     }
 }
 

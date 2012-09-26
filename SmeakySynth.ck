@@ -135,7 +135,7 @@ public class SmeakySynth extends Chubgraph
             {
                 //m_rate + Gaussian.generate()*m_rateDeviation => float rate;
                 m_rate + m_rateDeviation => float rate;
-                spork ~ grain(play, Std.rand2f(250, 600)::ms, 10::ms, 10::ms, rate, playbackPos);
+                spork ~ grain(play, Std.rand2f(400, 600)::ms, 15::ms, 10::ms, rate, playbackPos);
                 
                 if(!pause)
                 {
