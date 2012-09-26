@@ -32,13 +32,13 @@ class Hand extends Chubgraph
 
 class RightHand extends Hand
 {
-    FilterStack fs;
-    inlet => SmeakySynth sm => Gain direct => Gain master => outlet;
+    inlet => SmeakySynth sm => Gain direct => Gain master;
     
     sm => Gain beastModeInput;
     Feedback fb[NUM_CHANNELS];
     Gain beastMode[NUM_CHANNELS];
     Gain beastModePre[NUM_CHANNELS];
+    Gain multiOut[NUM_CHANNELS];
     0 => int inBeastMode;
     0 => beastModeInput.gain;
     
@@ -49,7 +49,9 @@ class RightHand extends Hand
         50::ms => fb[j].delay.delay;
         0.89/2.0 => fb[j].feedback.gain;
         0 => fb[j].direct.gain;
-        fb[j].delay => fb[(j+3)%NUM_CHANNELS].feedback;
+        fb[j].delay => fb[(j+2)%NUM_CHANNELS].feedback;
+        
+        master => multiOut[j];
     } 
     
     HandCtlFilter ctlFilter;
@@ -57,25 +59,11 @@ class RightHand extends Hand
     
     0 => int handNo;
     
-    sm.init(15::second);
+    sm.init(10::second);
     1 => sm.pause;
-    
-    fs.init(12);
-    
-    32 => Std.mtof => fs.freq;
-    50 => fs.Q;
     
     0.95 => float RECORD_THRESHOLD;
     0.90 => float PLAY_THRESHOLD;
-    
-    for(int j; j < fs.numFilters(); j++)
-    {
-        // triangle wave
-        if(j%2 == 0) // even harmonic
-            fs.gainAt(j, 0);
-        else // odd harmonic
-            fs.gainAt(j, Math.pow(-1,j/2)/(j*j));
-    }
     
     fun void processX(float x)
     {
@@ -83,7 +71,7 @@ class RightHand extends Hand
         Math.fabs(x) => float absdiff;
         diff/absdiff*(handNo*2-1) => float sign;
         
-        30 => int divisions;
+        23 => int divisions;
         
         0.2 => float deadzone;
         
@@ -98,19 +86,9 @@ class RightHand extends Hand
         for(int i; i < NUM_CHANNELS; i++)
         {
             Std2.clamp(1+absdiff*3.0 - Math.floor(i/2.0), 0, 1) => beastMode[i].gain;
-            beastMode[i].gain()*500::ms + 25::ms => fb[i].delay.delay;
+            Std2.clamp(1+absdiff*3.0 - Math.floor(i/2.0), 0, 1) => multiOut[i].gain;
+            beastMode[i].gain()*beastMode[i].gain()*500::ms + 25::ms => fb[i].delay.delay;
         }
-        
-        //if(x < 0)
-        //{
-        //    Math.pow(2,x) => fs.Q;
-        //    1 => fs.gain;
-        //}
-        //else
-        //{
-        //    Math.pow(2,x*6) => fs.Q;
-        //    fs.Q()*2 => Std2.db2lin => fs.gain;
-        //}
     }
     
     fun void processY(float y)
@@ -169,14 +147,9 @@ inDyno.limit();
 15::ms => inDyno.attackTime;
 0.1 => inDyno.gain;
 
-//Gain samplerOutput => Dyno limiter => dac;
 Gain samplerOutput;
 
 1.0/hand.cap() => samplerOutput.gain;
-
-//limiter.limit();
-//40 => limiter.gain;
-//1000 => limiter.gain;
 
 samplerInput => left => samplerOutput;
 samplerInput => right => samplerOutput;
@@ -186,10 +159,12 @@ for(int i; i < NUM_CHANNELS; i++)
     NRev reverb => limiterMC[i] => dac.chan(i);
     0.1 => reverb.mix;
     limiterMC[i].limit();
-    100 => limiterMC[i].gain;
+    10 => limiterMC[i].gain;
     left.beastMode[i] => reverb;
     right.beastMode[i] => reverb;
-    samplerOutput => limiterMC[i];
+    
+    left.multiOut[i] => limiterMC[i];
+    right.multiOut[i] => limiterMC[i];
 }
 
 1.0 => left.sm.rate;
