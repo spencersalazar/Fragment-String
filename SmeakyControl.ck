@@ -175,7 +175,7 @@ for(int i; i < NUM_CHANNELS; i++)
     NRev reverb => limiterMC[i] => dac.chan(i);
     0.1 => reverb.mix;
     limiterMC[i].limit();
-    10 => limiterMC[i].gain;
+    50 => limiterMC[i].gain;
     left.beastMode[i] => reverb;
     right.beastMode[i] => reverb;
     
