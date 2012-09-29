@@ -44,6 +44,9 @@ class RightHand extends Hand
     
     10 => sweeper1.Q;
     
+    Step step[NUM_CHANNELS];
+    OnePole multiOutGainOP[NUM_CHANNELS];
+    
     for(int j; j < NUM_CHANNELS; j++)
     {
         beastModeInput => beastModePre[j] => fb[j] => beastMode[j];
@@ -54,6 +57,11 @@ class RightHand extends Hand
         fb[j].delay => fb[(j+2)%NUM_CHANNELS].feedback;
         
         master => multiOut[j];
+        beastMode[j] => multiOut[j];
+        
+        step[j] => multiOutGainOP[j] => blackhole;
+        0 => step[j].next;
+        0.95 => multiOutGainOP[j].pole;
     } 
     
     HandCtlFilter ctlFilter;
@@ -89,9 +97,8 @@ class RightHand extends Hand
         
         for(int i; i < NUM_CHANNELS; i++)
         {
-            Std2.clamp(1+absdiff*3.0 - Math.floor(i/2.0), 0, 1) => beastMode[i].gain;
-            Std2.clamp(1+absdiff*3.0 - Math.floor(i/2.0), 0, 1) => multiOut[i].gain;
-            beastMode[i].gain()*beastMode[i].gain()*500::ms + 25::ms => fb[i].delay.delay;
+            //Std2.clamp(1+absdiff*3.0 - Math.floor(i/2.0), 0, 1) => beastMode[i].gain;
+            Std2.clamp(1+absdiff*3.0 - Math.floor(i/2.0), 0, 1) => step[i].next;
         }
     }
     
@@ -113,7 +120,7 @@ class RightHand extends Hand
             gfx.mode(1, handNo);
         }
         
-        20+((1+z)/2.0)*-40 => Std2.db2lin => master.gain;
+        15+((1+z)/2.0)*-47 => Std2.db2lin => master.gain;
         for(int i; i < NUM_CHANNELS; i++)
         {
             master.gain() => beastModePre[i].gain;
@@ -143,6 +150,15 @@ class RightHand extends Hand
         while(true)
         {
             700+500*Math.sin(2*Math.PI*(kr/samp)/SRATE*2) => sweeper1.freq;
+            
+            for(int i; i < NUM_CHANNELS; i++)
+            {
+                multiOutGainOP[i].last() => float g;
+                g => beastMode[i].gain;
+                g => multiOut[i].gain;
+                g*500::ms + 25::ms => fb[i].delay.delay;
+            }
+            
             kr => now;
         }
     }
