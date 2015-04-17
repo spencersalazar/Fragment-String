@@ -10,3 +10,4 @@ public class Std2
         return x;
     }
 }
+

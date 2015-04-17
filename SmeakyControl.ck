@@ -174,14 +174,14 @@ RightHand right @=> hand[1];
 adc => Dyno inDyno => Gain samplerInput;
 inDyno.limit();
 0.001 => inDyno.thresh;
-0.001 => inDyno.slopeAbove;
+0.1 => inDyno.slopeAbove;
 1000::ms => inDyno.releaseTime;
-15::ms => inDyno.attackTime;
-0.1 => inDyno.gain;
+200::ms => inDyno.attackTime;
+0.2 => inDyno.gain;
 
 Gain samplerOutput;
 
-1.0/hand.cap() => samplerOutput.gain;
+2.0/hand.cap() => samplerOutput.gain;
 
 samplerInput => left => samplerOutput;
 samplerInput => right => samplerOutput;
