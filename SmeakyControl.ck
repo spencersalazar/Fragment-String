@@ -206,6 +206,8 @@ Hid gt;
 HidMsg msg;
 gt.openJoystick(0);
 
+spork ~ doPanel();
+
 while(true)
 {
     gt => now;
@@ -236,6 +238,21 @@ while(true)
             hand[0].buttonUp();
             hand[1].buttonUp();
         }
+    }
+}
+
+fun void doPanel()
+{
+    Panel panel;
+    panel.open(1);
+    
+    while(true)
+    {
+        panel.knob1() => adc.gain;
+        panel.knob2() => dac.gain;
+        <<< panel.knob1(), panel.knob2() >>>;
+        //panel.sw1() => 
+        2::ms => now;
     }
 }
 
