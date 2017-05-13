@@ -3,6 +3,8 @@ int SW1 = 11;
 int AN1 = A1;
 int AN2 = A3;
 
+int _an1, an2, sw1;
+
 int clamp(int v)
 {
   if(v >= 255)
@@ -21,7 +23,6 @@ void sendit(int an1, int an2, int sw1)
 void setup() {
   Serial.begin(9600);
 
-  
   pinMode(SW1, INPUT_PULLUP);
 }
 
@@ -32,6 +33,6 @@ void loop() {
 
   sendit(an1, an2, sw1);
   
-  delay(2);
+  delay(10);
 }
 
